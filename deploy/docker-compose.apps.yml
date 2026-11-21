@@ -8,8 +8,8 @@ services:
       - "8080"
     environment:
       # Folder on the Arbutus object store written by publish-data.sh.
-      # Replace <tenant> (see README). Keep the trailing path as is.
-      - DATA_URL=https://object-arbutus.alliancecan.ca/<tenant>:predictiveecology/firesense/fitledger
+      # Arbutus object store, project tenant 529feda02d404836b0e91b1d360b4df0 (as in the wbi bucket rewrite)
+      - DATA_URL=https://object-arbutus.alliancecan.ca/529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/fitledger
 
   caddy:
     # add to the existing volumes list:

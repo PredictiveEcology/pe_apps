@@ -17,9 +17,9 @@ or make the package public in the GitHub org settings.
 
 ## 2. Publish the data (from the machine with the module output)
 
-    ARBUTUS_TENANT=<tenant> deploy/publish-data.sh /path/to/folder/with/ELFfitDates
+    ARBUTUS_TENANT=529feda02d404836b0e91b1d360b4df0 deploy/publish-data.sh /path/to/folder/with/ELFfitDates
 
-Public URL pattern: `https://object-arbutus.alliancecan.ca/<tenant>:predictiveecology/firesense/fitledger/ELFfitDates.csv`
+Public URL pattern: `https://object-arbutus.alliancecan.ca/529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/fitledger/ELFfitDates.csv`
 (and `.png`). Repeat after each fit round; the app reads the files when a page is opened, so no restart.
 
 ## 3. Copy the site and edit the server config
@@ -34,7 +34,7 @@ Then edit by hand:
 
 - `Caddyfile`: append the block in `deploy/Caddyfile.apps`.
 - `docker-compose.yml`: add the `firesense-fitledger` service from `deploy/docker-compose.apps.yml`
-  (fill in `<tenant>`), and add the volume `./apps-site:/srv/apps-site:ro` and
+  (fill in `529feda02d404836b0e91b1d360b4df0`), and add the volume `./apps-site:/srv/apps-site:ro` and
   `depends_on: firesense-fitledger` to the existing `caddy` service.
 
 ## 4. Start
