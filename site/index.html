@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PredictiveEcology apps</title>
+<meta name="description" content="Interactive apps from the PredictiveEcology research group.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f7f8f6; --surface: #ffffff; --text: #1d2420; --muted: #55605a;
+  --line: #d9ded9; --accent: #1f6b4a; --accent-text: #ffffff; --soon: #8a6d1d;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #121714; --surface: #1b231e; --text: #e6ebe7; --muted: #a2aea6;
+          --line: #2f3a33; --accent: #6cc79c; --accent-text: #0e1511; --soon: #d9b85a; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font-family: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 18px; line-height: 1.55; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
+header { padding: 40px 0 8px; }
+h1 { font-size: 2rem; margin: 0 0 8px; line-height: 1.2; }
+h2 { font-size: 1.3rem; margin: 40px 0 4px; }
+.lede, .sub { color: var(--muted); margin: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; }
+.card h3 { margin: 0 0 6px; font-size: 1.1rem; }
+.card p { margin: 0 0 12px; color: var(--muted); font-size: 1rem; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; }
+a.btn { display: inline-block; padding: 6px 14px; border-radius: 6px; background: var(--accent);
+  color: var(--accent-text); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+a.btn:hover, a.btn:focus { text-decoration: underline; }
+.soon { border-style: dashed; }
+.tag { display: inline-block; font-size: 0.8rem; font-weight: 600; color: var(--soon);
+  border: 1px solid var(--soon); border-radius: 4px; padding: 0 6px; }
+footer { margin-top: 56px; padding: 20px 0 32px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.95rem; }
+footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>PredictiveEcology apps</h1>
+  <p class="lede">Interactive tools from the PredictiveEcology research group, for looking at model inputs and results.</p>
+</header>
+<main>
+  <h2>WBI</h2>
+  <p class="sub">Western Boreal Initiative. Simulated climate effects on the western boreal.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>WBI: full extent</h3>
+      <p>Simulated climate effects on birds, trees and fire across the whole western boreal study area. Maps, side-by-side comparison and downloads.</p>
+      <div class="links"><a class="btn" href="https://wbi.predictiveecology.org/apps/wbi/">Open app</a></div>
+    </div>
+    <div class="card">
+      <h3>WBI: Northwest Territories</h3>
+      <p>The same simulated results for birds, trees and fire, limited to the Northwest Territories.</p>
+      <div class="links"><a class="btn" href="https://wbi.predictiveecology.org/apps/nwt/">Open app</a></div>
+    </div>
+  </div>
+
+  <h2>FireSense</h2>
+  <p class="sub">Statistical fire models fitted by ecological land fire region (ELF).</p>
+  <div class="grid">
+    <div class="card">
+      <h3>FireSense fit ledger</h3>
+      <p>For each ELF, the date of the latest production spread fit and ignition fit, on a map and in a table.</p>
+      <div class="links"><a class="btn" href="/firesense/fitledger/">Open app</a></div>
+    </div>
+    <div class="card soon">
+      <h3>Hindcast validation <span class="tag">coming</span></h3>
+      <p>How well fitted models reproduce past fire years.</p>
+    </div>
+    <div class="card soon">
+      <h3>Natural range of variability <span class="tag">coming</span></h3>
+      <p>Simulated fire and forest conditions over time, to show what range is normal.</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <a href="https://github.com/PredictiveEcology">PredictiveEcology</a> on GitHub.
+</footer>
+</div>
+</body>
+</html>

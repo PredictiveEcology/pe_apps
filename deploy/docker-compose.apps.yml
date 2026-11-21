@@ -1,0 +1,22 @@
+# ADD the service below under `services:` in /srv/wbi/docker-compose.yml, and the
+# two extra lines marked "caddy:" to the existing caddy service. Nothing else changes.
+services:
+  firesense-fitledger:
+    image: ghcr.io/predictiveecology/firesense-fitledger:v1
+    restart: always
+    expose:
+      - "8080"
+    environment:
+      # Folder on the Arbutus object store written by publish-data.sh.
+      # Replace <tenant> (see README). Keep the trailing path as is.
+      - DATA_URL=https://object-arbutus.alliancecan.ca/<tenant>:predictiveecology/firesense/fitledger
+
+  caddy:
+    # add to the existing volumes list:
+    #   - ./apps-site:/srv/apps-site:ro
+    # add to the existing depends_on list:
+    #   - firesense-fitledger
+    volumes:
+      - ./apps-site:/srv/apps-site:ro
+    depends_on:
+      - firesense-fitledger

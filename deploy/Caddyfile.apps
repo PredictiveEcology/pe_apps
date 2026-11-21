@@ -1,0 +1,17 @@
+# ADD this block to /srv/wbi/Caddyfile, next to the existing wbi.predictiveecology.org block.
+# Do not replace the existing block. Caddy gets the certificate for this host automatically.
+apps.predictiveecology.org {
+    root * /srv/apps-site
+
+    # Same path handling as wbi_shiny's /apps/*: handle_path strips the prefix,
+    # so the Shiny app sees "/" and its relative URLs work under /firesense/fitledger/.
+    redir /firesense/fitledger /firesense/fitledger/ permanent
+    handle_path /firesense/fitledger/* {
+        reverse_proxy firesense-fitledger:8080
+    }
+
+    file_server
+    log {
+        output file /var/log/caddy/apps-access.log
+    }
+}
