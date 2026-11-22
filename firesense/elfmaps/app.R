@@ -178,7 +178,7 @@ server <- function(input, output, session) {
   })
 
   output$map <- renderLeaflet({
-    m <- leaflet() |> addProviderTiles("CartoDB.Positron")
+    m <- leaflet() |> addProviderTiles("Esri.WorldGrayCanvas") # Carto basemaps now need an API key (tiles say "API KEY REQUIRED")
     if (ok) {
       b <- sf::st_bbox(dat$geo)
       m <- fitBounds(m, b[["xmin"]], b[["ymin"]], b[["xmax"]], b[["ymax"]])
