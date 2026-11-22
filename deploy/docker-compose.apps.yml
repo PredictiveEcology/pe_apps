@@ -2,7 +2,7 @@
 # two extra lines marked "caddy:" to the existing caddy service. Nothing else changes.
 services:
   firesense-elfmaps:
-    image: firesense-elfmaps:v1      # loaded with docker save | docker load (README step 1); not in a registry
+    image: firesense-elfmaps:v2      # loaded with docker save | docker load (README step 1); not in a registry
     pull_policy: never
     restart: always
     expose:

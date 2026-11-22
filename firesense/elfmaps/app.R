@@ -9,7 +9,17 @@ library(leaflet)
 library(sf)
 
 DATA_URL <- sub("/+$", "", Sys.getenv("DATA_URL", "./data"))
-GROUPS <- c("Observed", "Fit", "Spread coefficients")
+GROUPS <- c("Observed", "Fit", "Spread coefficients", "NRV burn probability")
+RASTER_GROUP <- "NRV burn probability"
+# Cloud-optimised GeoTIFFs, read in the browser by range requests from <app>/data/
+# (the web server proxies that path to the bucket). Values are the mean annual share of
+# each cell burned; shown x100, on one scale for both layers (capped at RASTER_CAP percent).
+RASTERS <- c(sim = "NRVburnProbability.tif", obs = "NRVburnProbabilityHistoric.tif")
+RASTER_LABELS <- c(sim = "Simulated (NRV simulations)", obs = "Observed (NBAC)")
+RASTER_CAP <- 5
+CDN <- c(proj4 = "https://cdn.jsdelivr.net/npm/proj4@2.11.0/dist/proj4.js",
+         georaster = "https://cdn.jsdelivr.net/npm/georaster@1.6.0/dist/georaster.browser.bundle.min.js",
+         layer = "https://cdn.jsdelivr.net/npm/georaster-layer-for-leaflet@3.10.0/dist/georaster-layer-for-leaflet.min.js")
 NOVAL <- "#BDBDBD"
 
 fetch <- function(name) {
@@ -37,14 +47,24 @@ readData <- function() {
   list(feat = feat, geo = geo)
 }
 
-# Order of features in the selector: dominant AGB, subdominant AGB, non-forest,
-# climate, everything else; alphabetical by label (so by species) within each.
+# Order of features in the selector, by the real feature ids. Observed and Fit have a fixed
+# order. Spread coefficients: dominant AGB, subdominant AGB, non-forest classes, young stands
+# and treed wetland, climate terms (anything else), then intercept, link shape and year SD.
+# Within a rank: by label, with numbers compared as numbers (LCC 40 before LCC 100).
+FIXED_ORDER <- c("naturalFiresPerYear", "haBurnedPerYear", "naturalFiresPer100km2PerYear",
+                 "percentBurnedPerYear", "spreadFitDate", "ignitionFitDate")
 featureOrder <- function(id, label) {
-  rank <- ifelse(grepl("^agb_dom", id), 1,
-          ifelse(grepl("^agb_sub", id), 2,
-          ifelse(grepl("non.?forest", id, ignore.case = TRUE), 3,
-          ifelse(grepl("^clim|cmd|temperature|precip", id, ignore.case = TRUE), 4, 5))))
-  order(rank, label)
+  rank <- ifelse(id %in% FIXED_ORDER, match(id, FIXED_ORDER),
+          ifelse(grepl("^spread_dom_agb", id), 11,
+          ifelse(grepl("^spread_sec_agb", id), 12,
+          ifelse(grepl("^spread_nfLCC", id), 13,
+          ifelse(grepl("^spread_(youngAge|treedWetland)", id), 14,
+          ifelse(grepl("^spread_(Intercept|maxAsymptote|hillSlope|inflectionPoint|yearSpreadSD)", id), 16,
+                 15)))))) 
+  text <- gsub("[0-9]+", "", label)
+  nums <- vapply(regmatches(label, gregexpr("[0-9]+", label)),
+                 function(m) paste(sprintf("%08d", as.integer(m)), collapse = "-"), "")
+  order(rank, text, nums, label)
 }
 
 fmtValue <- function(v, type) {
@@ -53,9 +73,60 @@ fmtValue <- function(v, type) {
          else format(signif(v, 4), trim = TRUE, scientific = FALSE))
 }
 
+RASTER_JS <- "
+(function () {
+  var layer = null, token = 0, loaded = null;
+  function load(src) {
+    return new Promise(function (ok, bad) {
+      var s = document.createElement('script');
+      s.src = src; s.onload = ok; s.onerror = function () { bad(new Error('could not load ' + src)); };
+      document.head.appendChild(s);
+    });
+  }
+  function libs(l) {
+    if (!loaded) loaded = load(l.proj4).then(function () {
+      proj4.defs('EPSG:3978', '+proj=lcc +lat_0=49 +lon_0=-95 +lat_1=49 +lat_2=77 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs');
+      return load(l.georaster);
+    }).then(function () { return load(l.layer); });
+    return loaded;
+  }
+  function note(map, msg) {
+    if (map._elfNote) { map._elfNote.remove(); map._elfNote = null; }
+    if (!msg) return;
+    var c = L.control({position: 'topleft'});
+    c.onAdd = function () { var d = L.DomUtil.create('div', 'alert alert-secondary py-1 px-2 mb-0 small'); d.textContent = msg; return d; };
+    c.addTo(map); map._elfNote = c;
+  }
+  Shiny.addCustomMessageHandler('elfRaster', function (m) {
+    var w = HTMLWidgets.find('#map'); if (!w) return;
+    var map = w.getMap(), me = ++token;
+    if (layer) { map.removeLayer(layer); layer = null; }
+    note(map, null);
+    if (!m.url) return;
+    note(map, 'Loading raster...');
+    libs(m.libs).then(function () {
+      return parseGeoraster(new URL(m.url, document.baseURI).href);
+    }).then(function (g) {
+      if (me !== token) return;
+      var n = m.colors.length;
+      layer = new GeoRasterLayer({
+        georaster: g, opacity: 0.85, resolution: 128,
+        pixelValuesToColorFn: function (v) {
+          var x = v[0] * 100;
+          if (!isFinite(x) || x <= 0) return null;
+          return m.colors[Math.min(n - 1, Math.round(x / m.cap * (n - 1)))];
+        }
+      });
+      layer.addTo(map); note(map, null);
+    }).catch(function (e) { if (me === token) note(map, 'Raster not available: ' + e.message); });
+  });
+})();
+"
+
 ui <- page_fluid(
   theme = bs_theme(version = 5, preset = "shiny"),
   title = "FireSense ELF maps",
+  tags$head(tags$script(HTML(RASTER_JS))),
   h2("FireSense ELF maps"),
   p("Observed data, fit information and fitted spread coefficients for each ELF",
     "(ecologically-based low fractal-dimension polygon). Pick a group and a feature to colour the map."),
@@ -69,7 +140,7 @@ ui <- page_fluid(
   ),
   uiOutput("msg"),
   card(leafletOutput("map", height = 560)),
-  card(card_header("ELFs"), DTOutput("tbl")),
+  uiOutput("tblCard"),
   tags$footer(class = "text-muted small my-3", textOutput("loaded"))
 )
 
@@ -83,6 +154,10 @@ server <- function(input, output, session) {
   output$loaded <- renderText(paste("Data from", DATA_URL))
 
   observeEvent(input$group, {
+    if (input$group == RASTER_GROUP) {
+      updateSelectInput(session, "feature", choices = stats::setNames(names(RASTERS), RASTER_LABELS))
+      return()
+    }
     req(ok)
     f <- dat$feat[dat$feat$group == input$group, c("feature", "label")]
     f <- f[!duplicated(f$feature), ]
@@ -91,8 +166,10 @@ server <- function(input, output, session) {
   })
 
   # One row per ELF in the geometry, with the chosen feature's value.
+  isRaster <- reactive(identical(input$group, RASTER_GROUP))
+
   current <- reactive({
-    req(ok, input$feature)
+    req(ok, input$feature, !isRaster())
     f <- dat$feat[dat$feat$group == input$group & dat$feat$feature == input$feature, ]
     req(nrow(f) > 0)
     g <- dat$geo
@@ -109,7 +186,31 @@ server <- function(input, output, session) {
     m
   })
 
+  # Raster group: ELF outlines without fill, the chosen COG drawn under them by the browser.
   observe({
+    req(ok, isRaster(), input$feature %in% names(RASTERS))
+    pal <- colorNumeric("YlOrRd", c(0, RASTER_CAP))
+    title <- paste0("Mean annual % of area burned<br>(", RASTER_LABELS[[input$feature]], ")")
+    g <- dat$geo
+    html <- sprintf("<b>ELF %s</b><br>%s", g$ELF, htmltools::htmlEscape(g$name))
+    leafletProxy("map", data = g) |>
+      clearShapes() |> clearControls() |>
+      addPolygons(fill = FALSE, color = "#333333", weight = 1.2, opacity = 0.9,
+                  label = lapply(html, htmltools::HTML),
+                  highlightOptions = highlightOptions(weight = 3, color = "#000000")) |>
+      addLegend("bottomright", pal = pal, values = c(0, RASTER_CAP), title = title, opacity = 0.9,
+                labFormat = function(type, cuts, p) ifelse(cuts >= RASTER_CAP, paste0(cuts, "+"), cuts))
+    session$sendCustomMessage("elfRaster", list(
+      url = paste0("data/", RASTERS[[input$feature]]), cap = RASTER_CAP,
+      colors = pal(seq(0, RASTER_CAP, length.out = 256)), libs = as.list(CDN)))
+  })
+
+  observe({
+    if (!isRaster()) session$sendCustomMessage("elfRaster", list(url = NULL))
+  })
+
+  observe({
+    req(!isRaster())
     cur <- current()
     g <- cur$g; v <- g$value
     isDate <- identical(cur$type, "date")
@@ -140,6 +241,10 @@ server <- function(input, output, session) {
                   highlightOptions = highlightOptions(weight = 3, color = "#000000", bringToFront = TRUE)) |>
       addLegend("bottomright", pal = pal, values = dom, title = title, opacity = 0.9,
                 labFormat = labFmt, na.label = "no value")
+  })
+
+  output$tblCard <- renderUI({
+    if (!isRaster()) card(card_header("ELFs"), DTOutput("tbl"))
   })
 
   output$tbl <- renderDT({

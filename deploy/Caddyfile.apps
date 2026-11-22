@@ -6,6 +6,14 @@ apps.predictiveecology.org {
     # Same path handling as wbi_shiny's /apps/*: handle_path strips the prefix,
     # so the Shiny app sees "/" and its relative URLs work under /firesense/elfmaps/.
     redir /firesense/elfmaps /firesense/elfmaps/ permanent
+    # The map's rasters are read by the browser with HTTP range requests, same origin, from the bucket.
+    # This handler must come before the app handler below.
+    handle_path /firesense/elfmaps/data/* {
+        rewrite * /529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/elfmaps{uri}
+        reverse_proxy https://object-arbutus.alliancecan.ca {
+            header_up Host object-arbutus.alliancecan.ca
+        }
+    }
     handle_path /firesense/elfmaps/* {
         reverse_proxy firesense-elfmaps:8080
     }

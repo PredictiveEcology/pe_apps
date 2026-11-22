@@ -8,8 +8,8 @@ DNS already points here. Nothing in the existing `wbi.predictiveecology.org` blo
 ## 1. Build the app image and load it on the VM (from your machine)
 
     cd firesense/elfmaps
-    docker build -t firesense-elfmaps:v1 .
-    docker save firesense-elfmaps:v1 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
+    docker build -t firesense-elfmaps:v2 .
+    docker save firesense-elfmaps:v2 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
 
 No registry, so the VM needs no login (compose has `pull_policy: never`).
 
@@ -18,7 +18,7 @@ No registry, so the VM needs no login (compose has `pull_policy: never`).
     ARBUTUS_TENANT=529feda02d404836b0e91b1d360b4df0 deploy/publish-data.sh /path/to/folder/with/ELFfeatures.csv/and/ELFs.geojson
 
 Public URL pattern: `https://object-arbutus.alliancecan.ca/529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/elfmaps/ELFfeatures.csv`
-(and `ELFs.geojson`). Repeat whenever the data change; the app reads the files when a page is opened, so no restart.
+(and `ELFs.geojson`, `NRVburnProbability.tif`, `NRVburnProbabilityHistoric.tif`). Repeat whenever the data change; the app reads the files when a page is opened, so no restart.
 
 ## 3. Copy the site and edit the server config
 

@@ -15,16 +15,16 @@ Local only so far; nothing here has been deployed.
 
 Replaces the fit ledger app (`/firesense/fitledger/` now redirects here). A leaflet map coloured by one
 feature at a time, with a sortable table. It only displays data. `ELFfeatures.csv` (long table: ELF, group,
-feature, label, units, type, value) and `ELFs.geojson` (ELF, name; EPSG:4326) are uploaded with
-`deploy/publish-data.sh`. The app reads them from `DATA_URL` (default `./data`, a synthetic sample) at the
-start of each session and holds no credentials.
+feature, label, units, type, value) and `ELFs.geojson` (ELF, name; EPSG:4326) and two NRV burn probability COGs are uploaded with
+`deploy/publish-data.sh`. The app reads them from `DATA_URL` (default `./data`, a small bundled copy of the first two) at the
+start of each session and holds no credentials. The rasters are streamed by the browser from `<app>/data/`, which Caddy proxies to the bucket.
 
 Run locally:
 
     cd firesense/elfmaps
     Rscript -e 'shiny::runApp(".", port = 3871)'     # needs shiny, bslib, DT, leaflet, sf
-    # or: docker build -t firesense-elfmaps:v1 . && docker run -p 18080:8080 firesense-elfmaps:v1
-    # real data: docker run -e DATA_URL=https://... -p 18080:8080 firesense-elfmaps:v1
+    # or: docker build -t firesense-elfmaps:v2 . && docker run -p 18080:8080 firesense-elfmaps:v2
+    # real data: docker run -e DATA_URL=https://... -p 18080:8080 firesense-elfmaps:v2
 
 ## Add an app
 
