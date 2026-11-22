@@ -5,15 +5,13 @@ Caddy plus the two WBI Shiny containers. These steps add a second site, `apps.pr
 to that same stack. They follow `01-cloud-vm/README.md` in `PredictiveEcology/wbi_shiny`.
 DNS already points here. Nothing in the existing `wbi.predictiveecology.org` block changes.
 
-## 1. Build and push the app image (from your machine)
+## 1. Build the app image and load it on the VM (from your machine)
 
     cd firesense/fitledger
-    docker build -t ghcr.io/predictiveecology/firesense-fitledger:v1 .
-    docker login ghcr.io          # GitHub user + a token with write:packages
-    docker push ghcr.io/predictiveecology/firesense-fitledger:v1
+    docker build -t firesense-fitledger:v1 .
+    docker save firesense-fitledger:v1 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
 
-If the package is private, run `docker login ghcr.io` on the VM too (token with read:packages),
-or make the package public in the GitHub org settings.
+No registry, so the VM needs no login (compose has `pull_policy: never`).
 
 ## 2. Publish the data (from the machine with the module output)
 
@@ -34,16 +32,17 @@ Then edit by hand:
 
 - `Caddyfile`: append the block in `deploy/Caddyfile.apps`.
 - `docker-compose.yml`: add the `firesense-fitledger` service from `deploy/docker-compose.apps.yml`
-  (fill in `529feda02d404836b0e91b1d360b4df0`), and add the volume `./apps-site:/srv/apps-site:ro` and
+  (fill in `529feda02d404836b0e91b1d360b4df0`), and add the volume `./apps-site:/apps-site:ro` and
   `depends_on: firesense-fitledger` to the existing `caddy` service.
 
 ## 4. Start
 
-    sudo docker compose pull firesense-fitledger
     sudo docker compose up -d
     sudo docker compose restart caddy     # Caddyfile changes are not picked up otherwise
 
 (Use `docker-compose` if that is the installed command, as in the wbi README.)
+
+Mount the site at `/apps-site`, not under `/srv`: `/srv` is the wbi site's read-only mount, and a mount point inside it stops Caddy from starting (it took wbi down for 2 min on 2026-11-21).
 
 ## 5. Check
 
@@ -53,6 +52,6 @@ Then edit by hand:
 
 ## Update later
 
-New image: build and push as in step 1, then on the VM `sudo docker compose pull firesense-fitledger && sudo docker compose up -d`.
+New image: build and load as in step 1 (bump the tag), then on the VM `sudo docker compose up -d`.
 New site pages: rsync `site/` to `/srv/wbi/apps-site/`; Caddy serves them at once.
 Roll back: restore `Caddyfile.bak` and `docker-compose.yml.bak`, then `up -d` and restart caddy.

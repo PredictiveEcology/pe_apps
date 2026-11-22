@@ -1,7 +1,7 @@
 # ADD this block to /srv/wbi/Caddyfile, next to the existing wbi.predictiveecology.org block.
 # Do not replace the existing block. Caddy gets the certificate for this host automatically.
 apps.predictiveecology.org {
-    root * /srv/apps-site
+    root * /apps-site
 
     # Same path handling as wbi_shiny's /apps/*: handle_path strips the prefix,
     # so the Shiny app sees "/" and its relative URLs work under /firesense/fitledger/.
