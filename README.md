@@ -23,8 +23,8 @@ Run locally:
 
     cd firesense/elfmaps
     Rscript -e 'shiny::runApp(".", port = 3871)'     # needs shiny, bslib, DT, leaflet, sf
-    # or: docker build -t firesense-elfmaps:v5 . && docker run -p 18080:8080 firesense-elfmaps:v5
-    # real data: docker run -e DATA_URL=https://... -p 18080:8080 firesense-elfmaps:v5
+    # or: docker build -t firesense-elfmaps:v6 . && docker run -p 18080:8080 firesense-elfmaps:v6
+    # real data: docker run -e DATA_URL=https://... -p 18080:8080 firesense-elfmaps:v6
 
 ## Add an app
 

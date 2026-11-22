@@ -51,6 +51,10 @@ readData <- function() {
   list(feat = feat, geo = geo)
 }
 
+## Province and territory outlines for the raster layers: Natural Earth 1:10m admin-1 (public domain), Canada only,
+## simplified to 0.01 degree; shipped with the app, not read from DATA_URL
+JURISDICTIONS <- sf::st_read("data/jurisdictions.geojson", quiet = TRUE)  # shiny runs the app from its own folder
+
 # Order of features in the selector, by the real feature ids. Observed and Fit have a fixed
 # order. Spread coefficients: dominant AGB, subdominant AGB, non-forest classes, young stands
 # and treed wetland, climate terms (anything else), then intercept, link shape and year SD.
@@ -192,13 +196,14 @@ server <- function(input, output, session) {
     m
   })
 
-  # Raster group: ELF outlines without fill, the chosen COG drawn under them by the browser.
+  # Raster group: province and territory outlines without fill (Natural Earth admin-1, bundled in data/),
+  # the chosen COG drawn under them by the browser.
   observe({
     req(ok, isRaster(), input$feature %in% names(RASTERS))
     pal <- colorNumeric("YlOrRd", c(0, RASTER_CAP))
     title <- paste0("Mean annual % of area burned<br>(", RASTER_LABELS[[input$feature]], ")")
-    g <- dat$geo
-    html <- sprintf("<b>ELF %s</b><br>%s", g$ELF, htmltools::htmlEscape(g$name))
+    g <- JURISDICTIONS
+    html <- sprintf("<b>%s</b>", htmltools::htmlEscape(g$name))
     leafletProxy("map", data = g) |>
       clearShapes() |> clearControls() |>
       addPolygons(fill = FALSE, color = "#333333", weight = 1.2, opacity = 0.9,
