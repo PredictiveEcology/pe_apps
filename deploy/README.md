@@ -8,8 +8,8 @@ DNS already points here. Nothing in the existing `wbi.predictiveecology.org` blo
 ## 1. Build the app image and load it on the VM (from your machine)
 
     cd firesense/elfmaps
-    docker build -t firesense-elfmaps:v3 .
-    docker save firesense-elfmaps:v3 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
+    docker build -t firesense-elfmaps:v4 .
+    docker save firesense-elfmaps:v4 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
 
 No registry, so the VM needs no login (compose has `pull_policy: never`).
 

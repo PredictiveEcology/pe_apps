@@ -14,7 +14,9 @@ RASTER_GROUP <- "NRV burn probability"
 # Cloud-optimised GeoTIFFs, read in the browser by range requests from <app>/data/
 # (the web server proxies that path to the bucket). Values are the mean annual share of
 # each cell burned; shown x100, on one scale for both layers (capped at RASTER_CAP percent).
-RASTERS <- c(sim = "NRVburnProbability.tif", obs = "NRVburnProbabilityHistoric.tif")
+## Web Mercator (EPSG:3857) display copies made by deploy/publish-data.sh: the map draws them without reprojecting in the
+## browser (the georaster layer misplaced the EPSG:3978 originals relative to the ELF outlines)
+RASTERS <- c(sim = "NRVburnProbability_3857.tif", obs = "NRVburnProbabilityHistoric_3857.tif")
 RASTER_LABELS <- c(sim = "Simulated (NRV simulations)", obs = "Observed (NBAC)")
 RASTER_CAP <- 5
 CDN <- c(proj4 = "https://cdn.jsdelivr.net/npm/proj4@2.11.0/dist/proj4.js",
