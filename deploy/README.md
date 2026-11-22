@@ -7,18 +7,18 @@ DNS already points here. Nothing in the existing `wbi.predictiveecology.org` blo
 
 ## 1. Build the app image and load it on the VM (from your machine)
 
-    cd firesense/fitledger
-    docker build -t firesense-fitledger:v1 .
-    docker save firesense-fitledger:v1 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
+    cd firesense/elfmaps
+    docker build -t firesense-elfmaps:v1 .
+    docker save firesense-elfmaps:v1 | gzip -1 | ssh ubuntu@134.87.10.143 'gunzip | sudo docker load'
 
 No registry, so the VM needs no login (compose has `pull_policy: never`).
 
 ## 2. Publish the data (from the machine with the module output)
 
-    ARBUTUS_TENANT=529feda02d404836b0e91b1d360b4df0 deploy/publish-data.sh /path/to/folder/with/ELFfitDates
+    ARBUTUS_TENANT=529feda02d404836b0e91b1d360b4df0 deploy/publish-data.sh /path/to/folder/with/ELFfeatures.csv/and/ELFs.geojson
 
-Public URL pattern: `https://object-arbutus.alliancecan.ca/529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/fitledger/ELFfitDates.csv`
-(and `.png`). Repeat after each fit round; the app reads the files when a page is opened, so no restart.
+Public URL pattern: `https://object-arbutus.alliancecan.ca/529feda02d404836b0e91b1d360b4df0:predictiveecology/firesense/elfmaps/ELFfeatures.csv`
+(and `ELFs.geojson`). Repeat whenever the data change; the app reads the files when a page is opened, so no restart.
 
 ## 3. Copy the site and edit the server config
 
@@ -31,9 +31,9 @@ Public URL pattern: `https://object-arbutus.alliancecan.ca/529feda02d404836b0e91
 Then edit by hand:
 
 - `Caddyfile`: append the block in `deploy/Caddyfile.apps`.
-- `docker-compose.yml`: add the `firesense-fitledger` service from `deploy/docker-compose.apps.yml`
-  (fill in `529feda02d404836b0e91b1d360b4df0`), and add the volume `./apps-site:/apps-site:ro` and
-  `depends_on: firesense-fitledger` to the existing `caddy` service.
+- `docker-compose.yml`: add the `firesense-elfmaps` service from `deploy/docker-compose.apps.yml`
+  and add the volume `./apps-site:/apps-site:ro` and
+  `depends_on: firesense-elfmaps` to the existing `caddy` service.
 
 ## 4. Start
 
@@ -47,7 +47,8 @@ Mount the site at `/apps-site`, not under `/srv`: `/srv` is the wbi site's read-
 ## 5. Check
 
     curl -sI https://apps.predictiveecology.org/ | head -1
-    curl -sI https://apps.predictiveecology.org/firesense/fitledger/ | head -1
+    curl -sI https://apps.predictiveecology.org/firesense/elfmaps/ | head -1
+    curl -sI https://apps.predictiveecology.org/firesense/fitledger/ | head -1   # 301 to /firesense/elfmaps/
     curl -sI https://wbi.predictiveecology.org/apps/wbi/ | head -1     # existing site still up
 
 ## Update later

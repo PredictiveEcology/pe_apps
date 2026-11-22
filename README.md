@@ -6,25 +6,25 @@ Local only so far; nothing here has been deployed.
 ## Layout
 
     site/                     static landing page (index.html, inline CSS)
-    firesense/fitledger/      Shiny app: latest spread-fit and ignition-fit date per ELF
-      app.R  Dockerfile  data/   (data/ is a small sample for local testing)
+    firesense/elfmaps/        Shiny app: map and table of ELF features (observed, fit, spread coefficients)
+      app.R  Dockerfile  data/   (data/ is a synthetic sample for local testing)
     deploy/                   Caddyfile block, compose additions, publish-data.sh, deploy steps
     README.md
 
-## FireSense fit ledger
+## FireSense ELF maps
 
-Shows a map, a sortable and searchable table, a "fitted in the last N days" slider and counts.
-It only displays data. The csv (`ELF, spreadFitDate, spreadLedger, ignitionFitDate, ignitionLedger`)
-and the png map are made by the `fireSense_ELFs` module with `fitDatesMap = TRUE`
-(https://github.com/PredictiveEcology/fireSense_ELFs/pull/60) and uploaded with `deploy/publish-data.sh`.
-The app reads them from `DATA_URL` (default `./data`) and holds no credentials.
+Replaces the fit ledger app (`/firesense/fitledger/` now redirects here). A leaflet map coloured by one
+feature at a time, with a sortable table. It only displays data. `ELFfeatures.csv` (long table: ELF, group,
+feature, label, units, type, value) and `ELFs.geojson` (ELF, name; EPSG:4326) are uploaded with
+`deploy/publish-data.sh`. The app reads them from `DATA_URL` (default `./data`, a synthetic sample) at the
+start of each session and holds no credentials.
 
 Run locally:
 
-    cd firesense/fitledger
-    Rscript -e 'shiny::runApp(".", port = 3871)'     # needs shiny, bslib, DT, jsonlite
-    # or: docker build -t fitledger . && docker run -p 8080:8080 fitledger
-    # real data: docker run -e DATA_URL=https://... -p 8080:8080 fitledger
+    cd firesense/elfmaps
+    Rscript -e 'shiny::runApp(".", port = 3871)'     # needs shiny, bslib, DT, leaflet, sf
+    # or: docker build -t firesense-elfmaps:v1 . && docker run -p 18080:8080 firesense-elfmaps:v1
+    # real data: docker run -e DATA_URL=https://... -p 18080:8080 firesense-elfmaps:v1
 
 ## Add an app
 
