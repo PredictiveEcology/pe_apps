@@ -1,958 +1,1021 @@
-ELF,group,feature,label,units,type,value
-10.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.230769230769231
-10.3.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,2.66666666666667
-11.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,2.58974358974359
-11.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.56410256410256
-11.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,7.07692307692308
-12.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,46.3076923076923
-12.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,13.1025641025641
-12.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,18.1025641025641
-13.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,17.2051282051282
-13.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,22.0769230769231
-13.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,62.1538461538462
-13.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,1.41025641025641
-14.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,104.692307692308
-14.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,132.846153846154
-14.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,195.769230769231
-14.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,517
-15.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.66666666666667
-15.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,10.1794871794872
-15.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,23.6410256410256
-3.1.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.35897435897436
-3.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.256410256410256
-3.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-3.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-3.2.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-3.2.5,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-3.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-3.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0
-4.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,18.5128205128205
-4.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,24.6923076923077
-4.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,37.6923076923077
-4.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,159.461538461538
-5.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,34.8205128205128
-5.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,72.3589743589744
-5.1.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,23
-5.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,13
-5.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,4.87179487179487
-5.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,4.51282051282051
-5.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,1.7948717948718
-5.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.923076923076923
-6.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,141.538461538462
-6.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,119.692307692308
-6.1.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,57.0769230769231
-6.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,205.153846153846
-6.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,108.307692307692
-6.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,54.8717948717949
-6.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,68.3076923076923
-6.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,5.92307692307692
-6.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.97435897435897
-6.5,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,116.435897435897
-6.6.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,179.692307692308
-6.6.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,72.2307692307692
-7.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,22.1794871794872
-7.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.82051282051282
-7.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.87179487179487
-8.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.1025641025641
-9.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,43.3333333333333
-9.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,102.358974358974
-9.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,146.769230769231
-9.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,187.512820512821
-9.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,88.1282051282051
-9.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,34.6666666666667
-10.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,512.130847410017
-10.3.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1716.42264235443
-11.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,7173.22531510644
-11.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,30633.0044202778
-11.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,11044.0340995255
-12.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,88383.3120623759
-12.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16660.1568423688
-12.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,27789.4749998946
-13.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,161.420684173814
-13.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,823.21919780442
-13.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,2306.66486178725
-13.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,37.9861441251729
-14.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16035.5257871111
-14.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,60818.5934347886
-14.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,24156.3831227261
-14.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,25219.3056567987
-15.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,5438.71750765011
-15.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,23863.5818588305
-15.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,60352.3615698235
-3.1.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1908.7930011042
-3.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,315.980477851279
-3.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,99.0147901043624
-3.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0
-3.2.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0
-3.2.5,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0
-3.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1.07935925551642
-3.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,7.78379445945339
-4.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,43547.5452687961
-4.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,68711.6582729295
-4.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,158066.890101623
-4.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,205818.214452285
-5.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,73371.2122476611
-5.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,178630.663490783
-5.1.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,132414.834404754
-5.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,142683.590373238
-5.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,30357.6511752217
-5.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,15075.2655494472
-5.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,9193.47324034525
-5.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3386.18957469178
-6.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,285688.76038904
-6.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,131776.515458149
-6.1.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,59531.1467646752
-6.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,91514.8575885277
-6.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,9938.24505460029
-6.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,88948.003694129
-6.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,65312.5817737285
-6.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16587.6481090561
-6.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3127.99640675685
-6.5,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,6568.44139485642
-6.6.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3758.85745229708
-6.6.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,12373.8862909713
-7.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1078.39412480361
-7.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1609.51087002005
-7.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,988.898606457128
-8.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,63.9632819146065
-9.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,17117.0505104998
-9.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,19886.6725027305
-9.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,32130.1074241159
-9.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,155108.778313378
-9.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,58794.1825298425
-9.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,33632.4502947038
-10.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000705787107617072
-10.3.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00104201411911664
-11.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00545485103472954
-11.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0142863370385754
-11.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00443402139354563
-12.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0172844344718823
-12.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00780315087394836
-12.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0467018927371437
-13.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0609139569968899
-13.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0228127530949369
-13.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0671171900306058
-13.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00491366891299145
-14.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0740344733104438
-14.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.125251208451204
-14.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.332870046737259
-14.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.281645844846114
-15.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0048155150217618
-15.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00988558910670722
-15.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0105271563716988
-3.1.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000953285207799865
-3.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,9.66959136661243e-05
-3.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-3.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-3.2.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-3.2.5,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-3.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-3.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0
-4.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0213314886160226
-4.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0179111967796316
-4.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0186376040569091
-4.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0691325067443397
-5.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.025181047317837
-5.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0302143343108787
-5.1.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00896638368478422
-5.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00672938401802684
-5.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00230715642141588
-5.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00373150100304283
-5.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0011682847126519
-5.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000680659634781419
-6.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.071414833540909
-6.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0647467534309607
-6.1.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0399311276987939
-6.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.121189685653629
-6.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0666875813925114
-6.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0287981111243553
-6.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0308389079110837
-6.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0036900758331648
-6.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00252908219735389
-6.5,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.154778822215339
-6.6.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.109120218149885
-6.6.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0434293465379841
-7.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0211818241128058
-7.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0174487146083401
-7.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00894457360164178
-8.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00183124992193246
-9.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.073766208098869
-9.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.164308133642102
-9.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0888837776282301
-9.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.115441619519655
-9.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0549317661775142
-9.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0262837693281913
-10.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0156630651456498
-10.3.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00670701235389301
-11.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.151091697600575
-11.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.511009089833473
-11.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.069196009248746
-12.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.329892397919448
-12.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0992185318896523
-12.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.716926659291754
-13.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00571502432120295
-13.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0085065732380772
-13.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0249086538397456
-13.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00132352765181432
-14.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.113397223929188
-14.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.573415345756378
-14.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.410735453547523
-14.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.13738709184026
-15.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0714278887014764
-15.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.231746020905697
-15.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.268744155729139
-3.1.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00541720161644864
-3.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00119160681925303
-3.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.000936197959281464
-3.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0
-3.2.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0
-3.2.5,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0
-3.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,1.59619305304741e-05
-3.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,5.93758570722175e-05
-4.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.501778735181787
-4.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.498417583207356
-4.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.781588682834146
-4.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.892298496302445
-5.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.53059642656584
-5.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.745893185012402
-5.1.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.516209656882693
-5.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.738594363609502
-5.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.14376600758277
-5.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.124652350695288
-5.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0598404536388455
-5.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0249691277247789
-6.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,1.4414749917391
-6.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.712836248114907
-6.1.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.416481074200897
-6.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.540601944916661
-6.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0611921011200707
-6.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.466821706973133
-6.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.294867038646585
-6.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.1033410171963
-6.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0199049961937363
-6.5,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0873146207720059
-6.6.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0228260936963043
-6.6.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0743990132564284
-7.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0102988651139775
-7.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.031839300504943
-7.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0099701092031981
-8.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.000377535326073886
-9.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.291383056153011
-9.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.319223796812974
-9.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.194580656210332
-9.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.954921829944274
-9.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.36647385279537
-9.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.254996413121497
-4.1,Fit,spreadFitDate,Spread fit date,date,date,20777
-4.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-4.2.2,Fit,spreadFitDate,Spread fit date,date,date,20777
-4.3,Fit,spreadFitDate,Spread fit date,date,date,20778
-5.1.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-5.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777
-5.1.3,Fit,spreadFitDate,Spread fit date,date,date,20777
-5.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777
-5.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-5.3.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-5.3.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.1.1,Fit,spreadFitDate,Spread fit date,date,date,20778
-6.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777
-6.1.3,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777
-6.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.2.3,Fit,spreadFitDate,Spread fit date,date,date,20777
-6.3.1,Fit,spreadFitDate,Spread fit date,date,date,20777
-6.3.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.4,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.5,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.6.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-6.6.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-7.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-9.1.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-9.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777
-9.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777
-9.2.2,Fit,spreadFitDate,Spread fit date,date,date,20778
-9.2.3,Fit,spreadFitDate,Spread fit date,date,date,20777
-9.3,Fit,spreadFitDate,Spread fit date,date,date,20777
-11.3,Fit,spreadFitDate,Spread fit date,date,date,20776
-11.4,Fit,spreadFitDate,Spread fit date,date,date,20776
-12.3,Fit,spreadFitDate,Spread fit date,date,date,20776
-12.4,Fit,spreadFitDate,Spread fit date,date,date,20776
-13.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-13.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-13.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-14.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-14.2,Fit,spreadFitDate,Spread fit date,date,date,20776
-14.3,Fit,spreadFitDate,Spread fit date,date,date,20776
-14.4,Fit,spreadFitDate,Spread fit date,date,date,20777
-15.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-15.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776
-15.2.2,Fit,spreadFitDate,Spread fit date,date,date,20777
-3.1.1_2,Fit,spreadFitDate,Spread fit date,date,date,20778
-12.1_2,Fit,spreadFitDate,Spread fit date,date,date,20777
-11.1_2,Fit,spreadFitDate,Spread fit date,date,date,20776
-4.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-4.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-4.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-4.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.1.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.3.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-5.3.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.1.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.2.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.3.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.3.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.5,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.6.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-6.6.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775
-7.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.2.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-9.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-11.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775
-11.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775
-12.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-12.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-13.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-13.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-13.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-14.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-14.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-14.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775
-14.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-15.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-15.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-15.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-3.1.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-8.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20755
-12.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-11.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776
-11.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252743816672322
-11.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-11.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-11.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.31696510481447
-11.1_2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,32.7747385686687
-11.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.60579300167585
-11.1_2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,2.84794691172097
-11.1_2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,55.1244430806545
-11.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,35.5318560843903
-11.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,1.69015176647091
-11.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-2.03076382559173
-11.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-2.03076382559173
-11.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-2.03076382559173
-11.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-2.03076382559173
-12.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.246612029953335
-12.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-12.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-12.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,12.7630266551983
-12.1_2,Spread coefficients,spread_CMD,CMD,"",numeric,10.1895010237764
-12.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-5.48775060813638
-12.1_2,Spread coefficients,spread_dom_agb_Pn_ba.Pn_co,Dominant AGB: Pn_ba + Pn_co,"",numeric,21.899202716325
-12.1_2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,57.261158719814
-12.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.09758425539342
-12.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-17.1802840939597
-12.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-17.1802840939597
-12.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-17.1802840939597
-12.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-17.1802840939597
-12.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-17.1802840939597
-12.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252341275206947
-12.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-12.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-12.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.9574465667201
-12.3,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,3.81948092874918
-12.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-35.4957238521674
-12.3,Spread coefficients,spread_dom_agb_Pinu_con,Dominant AGB: Lodgepole pine (Pinu_con),"",numeric,40.3850799927757
-12.3,Spread coefficients,spread_sec_agb_Pc_en.Pc_gl.Ab_la,Secondary AGB: Pc_en + Pc_gl + Ab_la,"",numeric,53.4349003552517
-12.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,36.0434240942685
-12.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.49054581345099
-12.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,26.6911381141087
-12.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,26.6911381141087
-12.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,26.6911381141087
-12.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,26.6911381141087
-12.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.243784748682879
-12.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-12.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-12.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,20.2586251846426
-12.4,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,6.45915776377672
-12.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.50649326377017
-12.4,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,51.3960190907666
-12.4,Spread coefficients,spread_sec_agb_Bt_pa.Pp_tr,Secondary AGB: Bt_pa + Pp_tr,"",numeric,2.04327728527557
-12.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.49770543088249
-12.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,36.6796527211216
-12.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,36.6796527211216
-12.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,36.6796527211216
-12.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,36.6796527211216
-12.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,36.6796527211216
-13.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.216264602219078
-13.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-13.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-13.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,44.2989266524399
-13.1,Spread coefficients,spread_CMD,CMD,"",numeric,40.0421138622559
-13.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-35.7291619943915
-13.1,Spread coefficients,spread_dom_agb_Pseu_men,Dominant AGB: Douglas-fir (Pseu_men),"",numeric,9.10577061867817
-13.1,Spread coefficients,spread_sec_agb_Tsug_het,Secondary AGB: Western hemlock (Tsug_het),"",numeric,27.4487524207973
-13.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.15881074536961
-13.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,29.0986033378128
-13.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,29.0986033378128
-13.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,29.0986033378128
-13.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,29.0986033378128
-13.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.223556016807526
-13.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-13.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-13.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,0.632150711261962
-13.2.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,42.7410979355066
-13.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-15.2776153488175
-13.2.1,Spread coefficients,spread_dom_agb_Pc_si.Chm_no.Thj_pl.Tsg_he.Aln_ru.Tsg_me,Dominant AGB: Pc_si + Chm_no + Thj_pl + Tsg_he + Aln_ru + Tsg_me,"",numeric,28.3328362617701
-13.2.1,Spread coefficients,spread_sec_agb_Pc_en.Ab_la,Secondary AGB: Pc_en + Ab_la,"",numeric,70.7274507535322
-13.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.37925438091158
-13.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,25.0909022569306
-13.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,25.0909022569306
-13.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,25.0909022569306
-13.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,25.0909022569306
-13.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,25.0909022569306
-13.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.28849631579783
-13.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-13.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-13.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,-15.5172619890618
-13.2.2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,41.0961468254951
-13.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.8189878299458
-13.2.2,Spread coefficients,spread_dom_agb_Aln_ru.Tsg_me.Chm_no.Tsg_he,Dominant AGB: Aln_ru + Tsg_me + Chm_no + Tsg_he,"",numeric,0.645749586822422
-13.2.2,Spread coefficients,spread_sec_agb_Pseu_men,Secondary AGB: Douglas-fir (Pseu_men),"",numeric,10.4458948522331
-13.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,3.44296434994225
-13.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,45.042249032609
-13.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,45.042249032609
-13.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,45.042249032609
-13.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,45.042249032609
-13.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,45.042249032609
-14.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263405687113203
-14.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-14.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-14.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,-4.59333751845093
-14.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,7.27118727818835
-14.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-23.9977888018113
-14.1,Spread coefficients,spread_dom_agb_Pc_gl.Ab_la.Pc_en,Dominant AGB: Pc_gl + Ab_la + Pc_en,"",numeric,9.78712667971041
-14.1,Spread coefficients,spread_sec_agb_Pinu_con,Secondary AGB: Lodgepole pine (Pinu_con),"",numeric,50.4969860263797
-14.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.44246526544862
-14.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,46.360194271532
-14.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,46.360194271532
-14.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,46.360194271532
-14.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,46.360194271532
-14.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,46.360194271532
-14.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.25471898233364
-14.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-14.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-14.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.04260822765029
-14.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,6.36232156884248
-14.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-24.5469726938678
-14.2,Spread coefficients,spread_dom_agb_Pinu_con,Dominant AGB: Lodgepole pine (Pinu_con),"",numeric,27.6889166422691
-14.2,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,1.11150885611001
-14.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.95581373612053
-14.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,13.1521639144686
-14.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,13.1521639144686
-14.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,13.1521639144686
-14.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,13.1521639144686
-14.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,13.1521639144686
-14.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.249997064350831
-14.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-14.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-14.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,2.55577805726131
-14.4,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,31.0759874403919
-14.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.9030673916987
-14.4,Spread coefficients,spread_dom_agb_Ab_la.Pc_en.Lr_la.Ab_ba.Lr_oc.Pc_gl,Dominant AGB: Ab_la + Pc_en + Lr_la + Ab_ba + Lr_oc + Pc_gl,"",numeric,8.7888881757894
-14.4,Spread coefficients,spread_sec_agb_Pinu_con,Secondary AGB: Lodgepole pine (Pinu_con),"",numeric,25.0403185079932
-14.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.29549526030435
-14.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-12.9550145996997
-14.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-12.9550145996997
-14.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-12.9550145996997
-14.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-12.9550145996997
-14.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-12.9550145996997
-15.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.236414106878416
-15.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-15.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-15.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,13.0116704230944
-15.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,27.6338808417563
-15.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.46958422955627
-15.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,48.1928878388987
-15.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,19.1175254919398
-15.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,22.8860147129562
-15.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.31053138644427
-15.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-26.6736754339714
-15.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-26.6736754339714
-15.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-26.6736754339714
-15.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-26.6736754339714
-15.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-26.6736754339714
-15.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.247993703847909
-15.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-15.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-15.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.84064671255462
-15.2.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,22.4530104866164
-15.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-10.203267931884
-15.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,40.2844416850453
-15.2.1,Spread coefficients,spread_sec_agb_Lr_la.Pc_gl,Secondary AGB: Lr_la + Pc_gl,"",numeric,44.6203110830624
-15.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,45.1891936003081
-15.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.85223118855447
-15.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-15.2412273843367
-15.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-15.2412273843367
-15.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-15.2412273843367
-15.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-15.2412273843367
-15.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-15.2412273843367
-15.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259416611116476
-15.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-15.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-15.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,-2.16019361669366
-15.2.2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,-19.2254139357098
-15.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-4.20030159110997
-15.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,1.4645211518861
-15.2.2,Spread coefficients,spread_sec_agb_Lr_la.Ab_ba,Secondary AGB: Lr_la + Ab_ba,"",numeric,85.100991034428
-15.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,79.7175543240943
-15.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.22519598018921
-15.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-40.8756159093257
-15.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-40.8756159093257
-15.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-40.8756159093257
-15.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-40.8756159093257
-15.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-40.8756159093257
-3.1.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.271965083823926
-3.1.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-3.1.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-3.1.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.9532846087939
-3.1.1_2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,21.4229954041354
-3.1.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.2906722775384
-3.1.1_2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,6.67739817204409
-3.1.1_2,Spread coefficients,spread_sec_agb_Lr_la.Pc_gl,Secondary AGB: Lr_la + Pc_gl,"",numeric,51.7459084477668
-3.1.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,41.6062611674992
-3.1.1_2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,92.6915095060421
-3.1.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.295826260444305
-3.1.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,6.89026367957023
-3.1.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,6.89026367957023
-3.1.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,6.89026367957023
-3.1.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,6.89026367957023
-4.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.250959024039732
-4.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-4.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-4.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.1485986190921
-4.1,Spread coefficients,spread_CMD,CMD,"",numeric,15.5919649203631
-4.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-7.47180654841457
-4.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,9.13368332070493
-4.1,Spread coefficients,spread_sec_agb_Pp_tr.Pp_ba.Bt_pa,Secondary AGB: Pp_tr + Pp_ba + Bt_pa,"",numeric,9.50500639899023
-4.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.54370016175945
-4.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,22.7157075512326
-4.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,22.7157075512326
-4.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-18.7933643597163
-4.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-18.7933643597163
-4.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-18.7933643597163
-4.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252674970129634
-4.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-4.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-4.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.2559682867629
-4.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,12.7689315101378
-4.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.32742404190904
-4.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,19.4586987844523
-4.2.1,Spread coefficients,spread_sec_agb_Bt_pa.Pp_tr.Pp_ba,Secondary AGB: Bt_pa + Pp_tr + Pp_ba,"",numeric,46.6738913370926
-4.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,47.2411195404171
-4.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.49457800727964
-4.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-20.670417074243
-4.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-20.670417074243
-4.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-20.670417074243
-4.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-20.670417074243
-4.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-20.670417074243
-4.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255331245614004
-4.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-4.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-4.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,8.44773245510254
-4.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,19.0656784239524
-4.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-17.5139119731887
-4.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,41.7573714757992
-4.2.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,20.3826124391291
-4.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,51.4412628394966
-4.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.9726988713344
-4.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-14.0042829490797
-4.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-14.0042829490797
-4.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-14.0042829490797
-4.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-14.0042829490797
-4.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-14.0042829490797
-4.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.257027948765947
-4.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-4.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-4.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.35820724407
-4.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,6.21436820696834
-4.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.19499854540612
-4.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,7.25467353675937
-4.3,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,11.3936617890407
-4.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,54.8206722038328
-4.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.50378133234826
-4.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,13.1835300714001
-4.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,13.1835300714001
-4.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,13.1835300714001
-4.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,13.1835300714001
-4.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,13.1835300714001
-5.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.273142838564142
-5.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.5115420630249
-5.1.1,Spread coefficients,spread_CMD,CMD,"",numeric,9.63097102890952
-5.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-4.54464298875371
-5.1.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,11.3491335320119
-5.1.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,45.0868889911552
-5.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.04370754975855
-5.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,2.66016182712399
-5.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,2.66016182712399
-5.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,2.66016182712399
-5.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,2.66016182712399
-5.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,2.66016182712399
-5.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.260566157358358
-5.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.7705873354243
-5.1.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,5.99808314669587
-5.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-16.8350670536074
-5.1.2,Spread coefficients,spread_dom_agb_Pinu_ban,Dominant AGB: Jack pine (Pinu_ban),"",numeric,4.56626185173755
-5.1.2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,6.37577534618739
-5.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,31.4763200085766
-5.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.84877809941275
-5.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-13.5533523368738
-5.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-13.5533523368738
-5.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-13.5533523368738
-5.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-13.5533523368738
-5.1.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263145690080097
-5.1.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.1.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.1.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.74534705770061
-5.1.3,Spread coefficients,spread_CMD,CMD,"",numeric,12.6488323853514
-5.1.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-13.5927724556256
-5.1.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,13.1110269267117
-5.1.3,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,82.5290975243894
-5.1.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-14.2790643655562
-5.1.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.14889155410619
-5.1.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-20.4395020388521
-5.1.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-20.4395020388521
-5.1.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-20.4395020388521
-5.1.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-20.4395020388521
-5.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263803653799628
-5.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,5.184389202325
-5.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,13.7903200696523
-5.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-5.80254759240629
-5.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,23.2134620609972
-5.2.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,48.106965854154
-5.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.7052534428565
-5.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-18.3054236880582
-5.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-18.3054236880582
-5.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-18.3054236880582
-5.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-18.3054236880582
-5.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-18.3054236880582
-5.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.258225566222409
-5.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,17.1248287639699
-5.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,14.9913694736554
-5.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.4959655863365
-5.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,43.2709786075737
-5.2.2,Spread coefficients,spread_sec_agb_Lr_la.Pc_gl.Ab_ba,Secondary AGB: Lr_la + Pc_gl + Ab_ba,"",numeric,32.0897782412921
-5.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.72541621319553
-5.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,28.0182672801906
-5.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,28.0182672801906
-5.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,28.0182672801906
-5.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,28.0182672801906
-5.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,28.0182672801906
-5.3.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.260935118895351
-5.3.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.3.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.3.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.58189814790689
-5.3.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,1.52076184239933
-5.3.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-16.7613587891126
-5.3.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,3.18116329609912
-5.3.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,4.40721229113146
-5.3.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,3.66798009100721
-5.3.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,11.7523382848266
-5.3.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,11.7523382848266
-5.3.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,11.7523382848266
-5.3.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,11.7523382848266
-5.3.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,11.7523382848266
-5.3.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.250454890910259
-5.3.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-5.3.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-5.3.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,12.3102865870279
-5.3.2,Spread coefficients,spread_CMD,CMD,"",numeric,6.44458004751226
-5.3.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-31.4694982475639
-5.3.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,7.40646839846123
-5.3.2,Spread coefficients,spread_sec_agb_Ab_ba.Pc_gl.Lr_la,Secondary AGB: Ab_ba + Pc_gl + Lr_la,"",numeric,23.0782798733461
-5.3.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-25.2421929995411
-5.3.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.3261144411233
-5.3.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,11.3259624006712
-5.3.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,11.3259624006712
-5.3.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,11.3259624006712
-5.3.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,11.3259624006712
-6.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.257987867659617
-6.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.8829601586198
-6.1.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,8.63474461490924
-6.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.10376047267091
-6.1.1,Spread coefficients,spread_dom_agb_Pinu_ban,Dominant AGB: Jack pine (Pinu_ban),"",numeric,85.4387851148644
-6.1.1,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,9.26184759294421
-6.1.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,42.2667601615664
-6.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.71955283633904
-6.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-10.4613634436778
-6.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-10.4613634436778
-6.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-10.4613634436778
-6.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-10.4613634436778
-6.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-10.4613634436778
-6.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255071817571629
-6.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.8943371873378
-6.1.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,12.7733211360344
-6.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.391836231174421
-6.1.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,56.9397481302782
-6.1.2,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,59.2179166894548
-6.1.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,5.59027883653099
-6.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.70252624143072
-6.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,1.31256413564444
-6.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,1.31256413564444
-6.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,1.31256413564444
-6.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,1.31256413564444
-6.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,1.31256413564444
-6.1.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.249134991739011
-6.1.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.1.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.1.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.7474777910519
-6.1.3,Spread coefficients,spread_PPTsm,PPTsm,"",numeric,-5.29899850952565
-6.1.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.39460447073238
-6.1.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,13.4270017600877
-6.1.3,Spread coefficients,spread_sec_agb_Lr_la.Ab_ba,Secondary AGB: Lr_la + Ab_ba,"",numeric,12.6714630084898
-6.1.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,26.6388671376664
-6.1.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.48952156064596
-6.1.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-11.4452480893236
-6.1.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-11.4452480893236
-6.1.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-11.4452480893236
-6.1.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-11.4452480893236
-6.1.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-11.4452480893236
-6.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.254166916783507
-6.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,10.6740492012649
-6.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,4.74592161026635
-6.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.406927826900033
-6.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,15.4377266513624
-6.2.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,62.6647303239388
-6.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,2.97711637015697
-6.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.09220230490999
-6.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-5.19094266857541
-6.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-5.19094266857541
-6.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-5.19094266857541
-6.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-5.19094266857541
-6.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-5.19094266857541
-6.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.243744177625804
-6.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.4140172017451
-6.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,0.400518339059204
-6.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.830863633864752
-6.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,3.28024899229046
-6.2.2,Spread coefficients,spread_sec_agb_Pp_tr.Bt_pa,Secondary AGB: Pp_tr + Bt_pa,"",numeric,21.3182307085511
-6.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.51950888598117
-6.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,14.799629245325
-6.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,14.799629245325
-6.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,14.799629245325
-6.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,14.799629245325
-6.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,14.799629245325
-6.2.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.25393410257443
-6.2.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.2.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.2.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.7818468405697
-6.2.3,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,0.337869627883094
-6.2.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.88945182366016
-6.2.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,14.3706708427227
-6.2.3,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,84.8718723003027
-6.2.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,4.46225638253828
-6.2.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.39378773862874
-6.2.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,9.87308533988968
-6.2.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,9.87308533988968
-6.2.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,9.87308533988968
-6.2.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,9.87308533988968
-6.2.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,9.87308533988968
-6.3.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.24915357548525
-6.3.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.3.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.3.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.4100747617923
-6.3.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,8.32880954190859
-6.3.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-10.4391589804361
-6.3.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,1.23019947957719
-6.3.1,Spread coefficients,spread_sec_agb_Pc_gl.Ab_ba.Lr_la,Secondary AGB: Pc_gl + Ab_ba + Lr_la,"",numeric,4.22479718752553
-6.3.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.87116306382972
-6.3.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,5.72295253577397
-6.3.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,5.72295253577397
-6.3.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,5.72295253577397
-6.3.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,5.72295253577397
-6.3.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,5.72295253577397
-6.3.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.251656098717847
-6.3.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.3.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.3.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.9927992839795
-6.3.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,3.35679255820512
-6.3.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-13.8506302030839
-6.3.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,4.72675895886625
-6.3.2,Spread coefficients,spread_sec_agb_Ab_ba.Lr_la.Pc_gl,Secondary AGB: Ab_ba + Lr_la + Pc_gl,"",numeric,39.3061509232837
-6.3.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.48785022088783
-6.3.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,17.25301023122
-6.3.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,17.25301023122
-6.3.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,17.25301023122
-6.3.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,17.25301023122
-6.3.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,17.25301023122
-6.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.253369233250314
-6.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,-2.16966923568961
-6.4,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,48.0400597641552
-6.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-21.8860751357853
-6.4,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,9.45671986556231
-6.4,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,23.2128495361668
-6.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,1.40804822167735
-6.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,3.18613161931871
-6.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,3.18613161931871
-6.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,3.18613161931871
-6.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-8.20428076427864
-6.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-8.20428076427864
-6.5,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.276808667694581
-6.5,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.5,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.5,Spread coefficients,spread_Intercept,Intercept,"",numeric,0.0355624483204395
-6.5,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,46.3379128492409
-6.5,Spread coefficients,spread_youngAge,Young stands,"",numeric,-21.0244168255826
-6.5,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,85.4346890273217
-6.5,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,22.2719003130913
-6.5,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,2.82623383792356
-6.5,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,40.336288207508
-6.5,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,40.336288207508
-6.5,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,40.336288207508
-6.5,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,40.336288207508
-6.5,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,40.336288207508
-6.6.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.242509949291679
-6.6.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-6.6.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-6.6.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.70818614491491
-6.6.1,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,24.1824952823331
-6.6.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.7621123290232
-6.6.1,Spread coefficients,spread_dom_agb_Bt_al.Pp_tr.Bt_pa,Dominant AGB: Bt_al + Pp_tr + Bt_pa,"",numeric,6.75209608691168
-6.6.1,Spread coefficients,spread_sec_agb_Acr_sa.Qr_ru.Acr_ru,Secondary AGB: Acr_sa + Qr_ru + Acr_ru,"",numeric,0.405376551556656
-6.6.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.91650757917383
-6.6.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-34.6523647645215
-6.6.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-34.6523647645215
-6.6.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-34.6523647645215
-6.6.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-34.6523647645215
-6.6.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-34.6523647645215
-7.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.186648903600967
-7.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-7.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-7.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,41.4404703573627
-7.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,30.6067621176374
-7.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-17.2931289658641
-7.1,Spread coefficients,spread_dom_agb_Pc_gl.Lr_la.Ab_ba,Dominant AGB: Pc_gl + Lr_la + Ab_ba,"",numeric,41.1288548781996
-7.1,Spread coefficients,spread_sec_agb_Pc_ru.Acr_sa.Acr_ru,Secondary AGB: Pc_ru + Acr_sa + Acr_ru,"",numeric,19.7972047469724
-7.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.01471815104237
-7.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-37.4613784226902
-7.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-37.4613784226902
-7.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-37.4613784226902
-7.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-37.4613784226902
-7.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-37.4613784226902
-9.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.241664264330237
-9.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.8941166654701
-9.1.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,4.64567597343422
-9.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.76740158008843
-9.1.1,Spread coefficients,spread_dom_agb_Bt_pa.Pp_tr.Pp_ba,Dominant AGB: Bt_pa + Pp_tr + Pp_ba,"",numeric,2.56656535521166
-9.1.1,Spread coefficients,spread_sec_agb_Pn_co.Pn_ba,Secondary AGB: Pn_co + Pn_ba,"",numeric,52.8377116119791
-9.1.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,37.2362835344452
-9.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.69205537051419
-9.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-27.3542650243452
-9.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-27.3542650243452
-9.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-27.3542650243452
-9.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-27.3542650243452
-9.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-27.3542650243452
-9.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259022196835991
-9.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,19.9487930271832
-9.1.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,8.50483339857305
-9.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.6381652927118
-9.1.2,Spread coefficients,spread_dom_agb_Pp_tr.Bt_pa.Pp_ba,Dominant AGB: Pp_tr + Bt_pa + Pp_ba,"",numeric,92.9727606963834
-9.1.2,Spread coefficients,spread_sec_agb_Pc_en.Pc_gl.Ab_ba.Ab_la,Secondary AGB: Pc_en + Pc_gl + Ab_ba + Ab_la,"",numeric,3.46005909739501
-9.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.526246541973646
-9.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-38.7356391704071
-9.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-38.7356391704071
-9.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-38.7356391704071
-9.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-38.7356391704071
-9.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-38.7356391704071
-9.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.262461208298481
-9.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,10.1650915306686
-9.2.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,16.2847750508644
-9.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-28.1624245443419
-9.2.1,Spread coefficients,spread_dom_agb_Pp_tr.Bt_pa.Pp_ba,Dominant AGB: Pp_tr + Bt_pa + Pp_ba,"",numeric,70.3981657347446
-9.2.1,Spread coefficients,spread_sec_agb_Ab_ba.Ab_la.Pc_en.Lr_la.Pc_gl,Secondary AGB: Ab_ba + Ab_la + Pc_en + Lr_la + Pc_gl,"",numeric,54.7481031329659
-9.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,91.7662033572556
-9.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.882405164641572
-9.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,23.2052679730959
-9.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,23.2052679730959
-9.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,23.2052679730959
-9.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,23.2052679730959
-9.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,23.2052679730959
-9.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259405245844468
-9.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,7.2535991728734
-9.2.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,4.66321577679413
-9.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.44968536116866
-9.2.2,Spread coefficients,spread_dom_agb_Bt_pa.Pp_tr.Pp_ba,Dominant AGB: Bt_pa + Pp_tr + Pp_ba,"",numeric,2.07096196203372
-9.2.2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,3.14476318246375
-9.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,5.23216896735326
-9.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.9088815004085
-9.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,17.4595146813417
-9.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,17.4595146813417
-9.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,17.4595146813417
-9.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,17.4595146813417
-9.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,17.4595146813417
-9.2.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.256273630473727
-9.2.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.2.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.2.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,9.55349779534343
-9.2.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,11.6269405023139
-9.2.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.19586443605423
-9.2.3,Spread coefficients,spread_dom_agb_Pp_tr.Bt_pa.Pp_ba,Dominant AGB: Pp_tr + Bt_pa + Pp_ba,"",numeric,1.40613889588574
-9.2.3,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,69.0322270427128
-9.2.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,50.3917075376504
-9.2.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.59396793437383
-9.2.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,30.5990642061864
-9.2.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,30.5990642061864
-9.2.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,30.5990642061864
-9.2.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,30.5990642061864
-9.2.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,30.5990642061864
-9.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255180137948596
-9.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1
-9.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1
-9.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,8.18601359900733
-9.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,1.45859748743049
-9.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.4509736058479
-9.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,58.9619549072013
-9.3,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,7.98711508268936
-9.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,60.319539716014
-9.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.31969626044476
-9.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,32.3537133071933
-9.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,32.3537133071933
-9.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,32.3537133071933
-9.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,32.3537133071933
-9.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,32.3537133071933
+ELF,group,feature,label,units,type,value,note
+10.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.230769230769231,""
+10.3.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,2.66666666666667,""
+11.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,2.58974358974359,""
+11.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.56410256410256,""
+11.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,7.07692307692308,""
+12.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,46.3076923076923,""
+12.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,13.1025641025641,""
+12.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,18.1025641025641,""
+13.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,17.2051282051282,""
+13.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,22.0769230769231,""
+13.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,62.1538461538462,""
+13.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,1.41025641025641,""
+14.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,104.692307692308,""
+14.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,132.846153846154,""
+14.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,195.769230769231,""
+14.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,517,""
+15.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.66666666666667,""
+15.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,10.1794871794872,""
+15.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,23.6410256410256,""
+3.1.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.35897435897436,""
+3.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.256410256410256,""
+3.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+3.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+3.2.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+3.2.5,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+3.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+3.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0,""
+4.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,18.5128205128205,""
+4.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,24.6923076923077,""
+4.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,37.6923076923077,""
+4.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,159.461538461538,""
+5.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,34.8205128205128,""
+5.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,72.3589743589744,""
+5.1.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,23,""
+5.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,13,""
+5.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,4.87179487179487,""
+5.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,4.51282051282051,""
+5.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,1.7948717948718,""
+5.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,0.923076923076923,""
+6.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,141.538461538462,""
+6.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,119.692307692308,""
+6.1.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,57.0769230769231,""
+6.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,205.153846153846,""
+6.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,108.307692307692,""
+6.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,54.8717948717949,""
+6.3.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,68.3076923076923,""
+6.3.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,5.92307692307692,""
+6.4,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.97435897435897,""
+6.5,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,116.435897435897,""
+6.6.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,179.692307692308,""
+6.6.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,72.2307692307692,""
+7.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,22.1794871794872,""
+7.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.82051282051282,""
+7.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,8.87179487179487,""
+8.1_2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,3.1025641025641,""
+9.1.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,43.3333333333333,""
+9.1.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,102.358974358974,""
+9.2.1,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,146.769230769231,""
+9.2.2,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,187.512820512821,""
+9.2.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,88.1282051282051,""
+9.3,Observed,naturalFiresPerYear,Natural ignitions per year,ignitions/yr,numeric,34.6666666666667,""
+10.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,512.130847410017,""
+10.3.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1716.42264235443,""
+11.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,7173.22531510644,""
+11.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,30633.0044202778,""
+11.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,11044.0340995255,""
+12.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,88383.3120623759,""
+12.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16660.1568423688,""
+12.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,27789.4749998946,""
+13.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,161.420684173814,""
+13.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,823.21919780442,""
+13.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,2306.66486178725,""
+13.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,37.9861441251729,""
+14.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16035.5257871111,""
+14.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,60818.5934347886,""
+14.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,24156.3831227261,""
+14.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,25219.3056567987,""
+15.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,5438.71750765011,""
+15.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,23863.5818588305,""
+15.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,60352.3615698235,""
+3.1.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1908.7930011042,""
+3.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,315.980477851279,""
+3.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,99.0147901043624,""
+3.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0,""
+3.2.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0,""
+3.2.5,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,0,""
+3.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1.07935925551642,""
+3.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,7.78379445945339,""
+4.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,43547.5452687961,""
+4.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,68711.6582729295,""
+4.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,158066.890101623,""
+4.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,205818.214452285,""
+5.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,73371.2122476611,""
+5.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,178630.663490783,""
+5.1.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,132414.834404754,""
+5.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,142683.590373238,""
+5.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,30357.6511752217,""
+5.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,15075.2655494472,""
+5.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,9193.47324034525,""
+5.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3386.18957469178,""
+6.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,285688.76038904,""
+6.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,131776.515458149,""
+6.1.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,59531.1467646752,""
+6.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,91514.8575885277,""
+6.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,9938.24505460029,""
+6.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,88948.003694129,""
+6.3.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,65312.5817737285,""
+6.3.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,16587.6481090561,""
+6.4,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3127.99640675685,""
+6.5,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,6568.44139485642,""
+6.6.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,3758.85745229708,""
+6.6.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,12373.8862909713,""
+7.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1078.39412480361,""
+7.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,1609.51087002005,""
+7.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,988.898606457128,""
+8.1_2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,63.9632819146065,""
+9.1.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,17117.0505104998,""
+9.1.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,19886.6725027305,""
+9.2.1,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,32130.1074241159,""
+9.2.2,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,155108.778313378,""
+9.2.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,58794.1825298425,""
+9.3,Observed,haBurnedPerYear,Area burned per year,ha/yr,numeric,33632.4502947038,""
+10.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000705787107617072,""
+10.3.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00104201411911664,""
+11.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00545485103472954,""
+11.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0142863370385754,""
+11.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00443402139354563,""
+12.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0172844344718823,""
+12.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00780315087394836,""
+12.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0467018927371437,""
+13.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0609139569968899,""
+13.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0228127530949369,""
+13.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0671171900306058,""
+13.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00491366891299145,""
+14.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0740344733104438,""
+14.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.125251208451204,""
+14.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.332870046737259,""
+14.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.281645844846114,""
+15.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0048155150217618,""
+15.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00988558910670722,""
+15.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0105271563716988,""
+3.1.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000953285207799865,""
+3.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,9.66959136661243e-05,""
+3.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+3.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+3.2.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+3.2.5,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+3.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+3.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0,""
+4.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0213314886160226,""
+4.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0179111967796316,""
+4.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0186376040569091,""
+4.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0691325067443397,""
+5.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.025181047317837,""
+5.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0302143343108787,""
+5.1.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00896638368478422,""
+5.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00672938401802684,""
+5.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00230715642141588,""
+5.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00373150100304283,""
+5.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0011682847126519,""
+5.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.000680659634781419,""
+6.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.071414833540909,""
+6.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0647467534309607,""
+6.1.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0399311276987939,""
+6.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.121189685653629,""
+6.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0666875813925114,""
+6.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0287981111243553,""
+6.3.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0308389079110837,""
+6.3.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0036900758331648,""
+6.4,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00252908219735389,""
+6.5,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.154778822215339,""
+6.6.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.109120218149885,""
+6.6.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0434293465379841,""
+7.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0211818241128058,""
+7.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0174487146083401,""
+7.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00894457360164178,""
+8.1_2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.00183124992193246,""
+9.1.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.073766208098869,""
+9.1.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.164308133642102,""
+9.2.1,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0888837776282301,""
+9.2.2,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.115441619519655,""
+9.2.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0549317661775142,""
+9.3,Observed,naturalFiresPer100km2PerYear,Natural ignitions per 100 km2 of core per year,ignitions/100 km2/yr,numeric,0.0262837693281913,""
+10.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0156630651456498,""
+10.3.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00670701235389301,""
+11.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.151091697600575,""
+11.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.511009089833473,""
+11.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.069196009248746,""
+12.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.329892397919448,""
+12.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0992185318896523,""
+12.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.716926659291754,""
+13.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00571502432120295,""
+13.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0085065732380772,""
+13.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0249086538397456,""
+13.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00132352765181432,""
+14.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.113397223929188,""
+14.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.573415345756378,""
+14.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.410735453547523,""
+14.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.13738709184026,""
+15.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0714278887014764,""
+15.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.231746020905697,""
+15.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.268744155729139,""
+3.1.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00541720161644864,""
+3.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.00119160681925303,""
+3.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.000936197959281464,""
+3.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0,""
+3.2.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0,""
+3.2.5,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0,""
+3.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,1.59619305304741e-05,""
+3.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,5.93758570722175e-05,""
+4.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.501778735181787,""
+4.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.498417583207356,""
+4.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.781588682834146,""
+4.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.892298496302445,""
+5.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.53059642656584,""
+5.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.745893185012402,""
+5.1.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.516209656882693,""
+5.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.738594363609502,""
+5.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.14376600758277,""
+5.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.124652350695288,""
+5.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0598404536388455,""
+5.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0249691277247789,""
+6.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,1.4414749917391,""
+6.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.712836248114907,""
+6.1.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.416481074200897,""
+6.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.540601944916661,""
+6.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0611921011200707,""
+6.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.466821706973133,""
+6.3.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.294867038646585,""
+6.3.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.1033410171963,""
+6.4,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0199049961937363,""
+6.5,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0873146207720059,""
+6.6.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0228260936963043,""
+6.6.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0743990132564284,""
+7.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0102988651139775,""
+7.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.031839300504943,""
+7.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.0099701092031981,""
+8.1_2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.000377535326073886,""
+9.1.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.291383056153011,""
+9.1.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.319223796812974,""
+9.2.1,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.194580656210332,""
+9.2.2,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.954921829944274,""
+9.2.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.36647385279537,""
+9.3,Observed,percentBurnedPerYear,Core burned per year,%/yr,numeric,0.254996413121497,""
+4.1,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+4.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+4.2.2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+4.3,Fit,spreadFitDate,Spread fit date,date,date,20778,""
+5.1.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+5.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+5.1.3,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+5.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+5.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+5.3.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+5.3.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.1.1,Fit,spreadFitDate,Spread fit date,date,date,20778,""
+6.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+6.1.3,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+6.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.2.3,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+6.3.1,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+6.3.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.4,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.5,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.6.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+6.6.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+7.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+9.1.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+9.1.2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+9.2.1,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+9.2.2,Fit,spreadFitDate,Spread fit date,date,date,20778,""
+9.2.3,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+9.3,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+11.3,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+11.4,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+12.3,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+12.4,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+13.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+13.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+13.2.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+14.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+14.2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+14.3,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+14.4,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+15.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+15.2.1,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+15.2.2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+3.1.1_2,Fit,spreadFitDate,Spread fit date,date,date,20778,""
+12.1_2,Fit,spreadFitDate,Spread fit date,date,date,20777,""
+11.1_2,Fit,spreadFitDate,Spread fit date,date,date,20776,""
+4.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+4.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+4.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+4.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.1.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.3.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+5.3.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.1.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.2.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.3.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.3.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.5,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.6.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+6.6.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775,""
+7.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.1.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.1.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.2.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+9.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+11.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775,""
+11.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775,""
+12.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+12.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+13.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+13.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+13.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+14.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+14.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+14.3,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20775,""
+14.4,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+15.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+15.2.1,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+15.2.2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+3.1.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+8.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20755,""
+12.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+11.1_2,Fit,ignitionFitDate,Ignition and escape fit date,date,date,20776,""
+11.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252743816672322,""
+11.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+11.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+11.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.31696510481447,""
+11.1_2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,32.7747385686687,""
+11.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.60579300167585,""
+11.1_2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,2.84794691172097,""
+11.1_2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,55.1244430806545,""
+11.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,35.5318560843903,""
+11.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,1.69015176647091,""
+11.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-2.03076382559173,""
+11.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-2.03076382559173,""
+11.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-2.03076382559173,""
+11.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-2.03076382559173,""
+12.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.246612029953335,""
+12.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+12.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+12.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,12.7630266551983,""
+12.1_2,Spread coefficients,spread_CMD,CMD,"",numeric,10.1895010237764,""
+12.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-5.48775060813638,""
+12.1_2,Spread coefficients,spread_dom_agb_Pinu_ban,Dominant AGB: Jack pine (Pinu_ban),"",numeric,21.899202716325,shared with Pinu_con
+12.1_2,Spread coefficients,spread_dom_agb_Pinu_con,Dominant AGB: Lodgepole pine (Pinu_con),"",numeric,21.899202716325,shared with Pinu_ban
+12.1_2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,57.261158719814,""
+12.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.09758425539342,""
+12.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-17.1802840939597,""
+12.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-17.1802840939597,""
+12.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-17.1802840939597,""
+12.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-17.1802840939597,""
+12.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-17.1802840939597,""
+12.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252341275206947,""
+12.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+12.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+12.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.9574465667201,""
+12.3,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,3.81948092874918,""
+12.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-35.4957238521674,""
+12.3,Spread coefficients,spread_dom_agb_Pinu_con,Dominant AGB: Lodgepole pine (Pinu_con),"",numeric,40.3850799927757,""
+12.3,Spread coefficients,spread_sec_agb_Abie_las,Secondary AGB: Subalpine fir (Abie_las),"",numeric,53.4349003552517,"shared with Pice_eng, Pice_gla"
+12.3,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,53.4349003552517,"shared with Abie_las, Pice_gla"
+12.3,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,53.4349003552517,"shared with Abie_las, Pice_eng"
+12.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,36.0434240942685,""
+12.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.49054581345099,""
+12.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,26.6911381141087,""
+12.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,26.6911381141087,""
+12.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,26.6911381141087,""
+12.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,26.6911381141087,""
+12.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.243784748682879,""
+12.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+12.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+12.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,20.2586251846426,""
+12.4,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,6.45915776377672,""
+12.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.50649326377017,""
+12.4,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,51.3960190907666,""
+12.4,Spread coefficients,spread_sec_agb_Betu_pap,Secondary AGB: Paper birch (Betu_pap),"",numeric,2.04327728527557,shared with Popu_tre
+12.4,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,2.04327728527557,shared with Betu_pap
+12.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.49770543088249,""
+12.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,36.6796527211216,""
+12.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,36.6796527211216,""
+12.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,36.6796527211216,""
+12.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,36.6796527211216,""
+12.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,36.6796527211216,""
+13.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.216264602219078,""
+13.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+13.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+13.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,44.2989266524399,""
+13.1,Spread coefficients,spread_CMD,CMD,"",numeric,40.0421138622559,""
+13.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-35.7291619943915,""
+13.1,Spread coefficients,spread_dom_agb_Pseu_men,Dominant AGB: Douglas-fir (Pseu_men),"",numeric,9.10577061867817,""
+13.1,Spread coefficients,spread_sec_agb_Tsug_het,Secondary AGB: Western hemlock (Tsug_het),"",numeric,27.4487524207973,""
+13.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.15881074536961,""
+13.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,29.0986033378128,""
+13.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,29.0986033378128,""
+13.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,29.0986033378128,""
+13.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,29.0986033378128,""
+13.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.223556016807526,""
+13.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+13.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+13.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,0.632150711261962,""
+13.2.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,42.7410979355066,""
+13.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-15.2776153488175,""
+13.2.1,Spread coefficients,spread_dom_agb_Alnu_rub,Dominant AGB: Red alder (Alnu_rub),"",numeric,28.3328362617701,"shared with Cham_noo, Pice_sit, Thuj_pli, Tsug_het, Tsug_mer"
+13.2.1,Spread coefficients,spread_dom_agb_Cham_noo,Dominant AGB: Yellow cedar (Cham_noo),"",numeric,28.3328362617701,"shared with Alnu_rub, Pice_sit, Thuj_pli, Tsug_het, Tsug_mer"
+13.2.1,Spread coefficients,spread_dom_agb_Pice_sit,Dominant AGB: Hybrid sitka spruce (Pice_sit),"",numeric,28.3328362617701,"shared with Alnu_rub, Cham_noo, Thuj_pli, Tsug_het, Tsug_mer"
+13.2.1,Spread coefficients,spread_dom_agb_Thuj_pli,Dominant AGB: Western redcedar (Thuj_pli),"",numeric,28.3328362617701,"shared with Alnu_rub, Cham_noo, Pice_sit, Tsug_het, Tsug_mer"
+13.2.1,Spread coefficients,spread_dom_agb_Tsug_het,Dominant AGB: Western hemlock (Tsug_het),"",numeric,28.3328362617701,"shared with Alnu_rub, Cham_noo, Pice_sit, Thuj_pli, Tsug_mer"
+13.2.1,Spread coefficients,spread_dom_agb_Tsug_mer,Dominant AGB: Mountain hemlock (Tsug_mer),"",numeric,28.3328362617701,"shared with Alnu_rub, Cham_noo, Pice_sit, Thuj_pli, Tsug_het"
+13.2.1,Spread coefficients,spread_sec_agb_Abie_las,Secondary AGB: Subalpine fir (Abie_las),"",numeric,70.7274507535322,shared with Pice_eng
+13.2.1,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,70.7274507535322,shared with Abie_las
+13.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.37925438091158,""
+13.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,25.0909022569306,""
+13.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,25.0909022569306,""
+13.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,25.0909022569306,""
+13.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,25.0909022569306,""
+13.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,25.0909022569306,""
+13.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.28849631579783,""
+13.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+13.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+13.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,-15.5172619890618,""
+13.2.2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,41.0961468254951,""
+13.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.8189878299458,""
+13.2.2,Spread coefficients,spread_dom_agb_Alnu_rub,Dominant AGB: Red alder (Alnu_rub),"",numeric,0.645749586822422,"shared with Cham_noo, Tsug_het, Tsug_mer"
+13.2.2,Spread coefficients,spread_dom_agb_Cham_noo,Dominant AGB: Yellow cedar (Cham_noo),"",numeric,0.645749586822422,"shared with Alnu_rub, Tsug_het, Tsug_mer"
+13.2.2,Spread coefficients,spread_dom_agb_Tsug_het,Dominant AGB: Western hemlock (Tsug_het),"",numeric,0.645749586822422,"shared with Alnu_rub, Cham_noo, Tsug_mer"
+13.2.2,Spread coefficients,spread_dom_agb_Tsug_mer,Dominant AGB: Mountain hemlock (Tsug_mer),"",numeric,0.645749586822422,"shared with Alnu_rub, Cham_noo, Tsug_het"
+13.2.2,Spread coefficients,spread_sec_agb_Pseu_men,Secondary AGB: Douglas-fir (Pseu_men),"",numeric,10.4458948522331,""
+13.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,3.44296434994225,""
+13.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,45.042249032609,""
+13.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,45.042249032609,""
+13.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,45.042249032609,""
+13.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,45.042249032609,""
+13.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,45.042249032609,""
+14.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263405687113203,""
+14.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+14.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+14.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,-4.59333751845093,""
+14.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,7.27118727818835,""
+14.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-23.9977888018113,""
+14.1,Spread coefficients,spread_dom_agb_Abie_las,Dominant AGB: Subalpine fir (Abie_las),"",numeric,9.78712667971041,"shared with Pice_eng, Pice_gla"
+14.1,Spread coefficients,spread_dom_agb_Pice_eng,Dominant AGB: Engelmann's spruce (Pice_eng),"",numeric,9.78712667971041,"shared with Abie_las, Pice_gla"
+14.1,Spread coefficients,spread_dom_agb_Pice_gla,Dominant AGB: White spruce (Pice_gla),"",numeric,9.78712667971041,"shared with Abie_las, Pice_eng"
+14.1,Spread coefficients,spread_sec_agb_Pinu_con,Secondary AGB: Lodgepole pine (Pinu_con),"",numeric,50.4969860263797,""
+14.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.44246526544862,""
+14.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,46.360194271532,""
+14.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,46.360194271532,""
+14.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,46.360194271532,""
+14.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,46.360194271532,""
+14.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,46.360194271532,""
+14.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.25471898233364,""
+14.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+14.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+14.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.04260822765029,""
+14.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,6.36232156884248,""
+14.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-24.5469726938678,""
+14.2,Spread coefficients,spread_dom_agb_Pinu_con,Dominant AGB: Lodgepole pine (Pinu_con),"",numeric,27.6889166422691,""
+14.2,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,1.11150885611001,""
+14.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.95581373612053,""
+14.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,13.1521639144686,""
+14.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,13.1521639144686,""
+14.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,13.1521639144686,""
+14.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,13.1521639144686,""
+14.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,13.1521639144686,""
+14.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.249997064350831,""
+14.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+14.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+14.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,2.55577805726131,""
+14.4,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,31.0759874403919,""
+14.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.9030673916987,""
+14.4,Spread coefficients,spread_dom_agb_Abie_bal,Dominant AGB: Balsam fir (Abie_bal),"",numeric,8.7888881757894,"shared with Abie_las, Lari_lar, Lari_occ, Pice_eng, Pice_gla"
+14.4,Spread coefficients,spread_dom_agb_Abie_las,Dominant AGB: Subalpine fir (Abie_las),"",numeric,8.7888881757894,"shared with Abie_bal, Lari_lar, Lari_occ, Pice_eng, Pice_gla"
+14.4,Spread coefficients,spread_dom_agb_Lari_lar,Dominant AGB: Tamarack (Lari_lar),"",numeric,8.7888881757894,"shared with Abie_bal, Abie_las, Lari_occ, Pice_eng, Pice_gla"
+14.4,Spread coefficients,spread_dom_agb_Lari_occ,Dominant AGB: Western larch (Lari_occ),"",numeric,8.7888881757894,"shared with Abie_bal, Abie_las, Lari_lar, Pice_eng, Pice_gla"
+14.4,Spread coefficients,spread_dom_agb_Pice_eng,Dominant AGB: Engelmann's spruce (Pice_eng),"",numeric,8.7888881757894,"shared with Abie_bal, Abie_las, Lari_lar, Lari_occ, Pice_gla"
+14.4,Spread coefficients,spread_dom_agb_Pice_gla,Dominant AGB: White spruce (Pice_gla),"",numeric,8.7888881757894,"shared with Abie_bal, Abie_las, Lari_lar, Lari_occ, Pice_eng"
+14.4,Spread coefficients,spread_sec_agb_Pinu_con,Secondary AGB: Lodgepole pine (Pinu_con),"",numeric,25.0403185079932,""
+14.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.29549526030435,""
+14.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-12.9550145996997,""
+14.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-12.9550145996997,""
+14.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-12.9550145996997,""
+14.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-12.9550145996997,""
+14.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-12.9550145996997,""
+15.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.236414106878416,""
+15.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+15.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+15.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,13.0116704230944,""
+15.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,27.6338808417563,""
+15.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.46958422955627,""
+15.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,48.1928878388987,""
+15.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,19.1175254919398,""
+15.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,22.8860147129562,""
+15.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.31053138644427,""
+15.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-26.6736754339714,""
+15.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-26.6736754339714,""
+15.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-26.6736754339714,""
+15.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-26.6736754339714,""
+15.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-26.6736754339714,""
+15.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.247993703847909,""
+15.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+15.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+15.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.84064671255462,""
+15.2.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,22.4530104866164,""
+15.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-10.203267931884,""
+15.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,40.2844416850453,""
+15.2.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,44.6203110830624,shared with Pice_gla
+15.2.1,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,44.6203110830624,shared with Lari_lar
+15.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,45.1891936003081,""
+15.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.85223118855447,""
+15.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-15.2412273843367,""
+15.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-15.2412273843367,""
+15.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-15.2412273843367,""
+15.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-15.2412273843367,""
+15.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-15.2412273843367,""
+15.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259416611116476,""
+15.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+15.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+15.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,-2.16019361669366,""
+15.2.2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,-19.2254139357098,""
+15.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-4.20030159110997,""
+15.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,1.4645211518861,""
+15.2.2,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,85.100991034428,shared with Lari_lar
+15.2.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,85.100991034428,shared with Abie_bal
+15.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,79.7175543240943,""
+15.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.22519598018921,""
+15.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-40.8756159093257,""
+15.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-40.8756159093257,""
+15.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-40.8756159093257,""
+15.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-40.8756159093257,""
+15.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-40.8756159093257,""
+3.1.1_2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.271965083823926,""
+3.1.1_2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+3.1.1_2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+3.1.1_2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.9532846087939,""
+3.1.1_2,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,21.4229954041354,""
+3.1.1_2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.2906722775384,""
+3.1.1_2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,6.67739817204409,""
+3.1.1_2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,51.7459084477668,shared with Pice_gla
+3.1.1_2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,51.7459084477668,shared with Lari_lar
+3.1.1_2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,41.6062611674992,""
+3.1.1_2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,92.6915095060421,""
+3.1.1_2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.295826260444305,""
+3.1.1_2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,6.89026367957023,""
+3.1.1_2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,6.89026367957023,""
+3.1.1_2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,6.89026367957023,""
+3.1.1_2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,6.89026367957023,""
+4.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.250959024039732,""
+4.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+4.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+4.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.1485986190921,""
+4.1,Spread coefficients,spread_CMD,CMD,"",numeric,15.5919649203631,""
+4.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-7.47180654841457,""
+4.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,9.13368332070493,""
+4.1,Spread coefficients,spread_sec_agb_Betu_pap,Secondary AGB: Paper birch (Betu_pap),"",numeric,9.50500639899023,"shared with Popu_bal, Popu_tre"
+4.1,Spread coefficients,spread_sec_agb_Popu_bal,Secondary AGB: Balsam poplar (Popu_bal),"",numeric,9.50500639899023,"shared with Betu_pap, Popu_tre"
+4.1,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,9.50500639899023,"shared with Betu_pap, Popu_bal"
+4.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.54370016175945,""
+4.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,22.7157075512326,""
+4.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,22.7157075512326,""
+4.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-18.7933643597163,""
+4.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-18.7933643597163,""
+4.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-18.7933643597163,""
+4.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.252674970129634,""
+4.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+4.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+4.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.2559682867629,""
+4.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,12.7689315101378,""
+4.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.32742404190904,""
+4.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,19.4586987844523,""
+4.2.1,Spread coefficients,spread_sec_agb_Betu_pap,Secondary AGB: Paper birch (Betu_pap),"",numeric,46.6738913370926,"shared with Popu_bal, Popu_tre"
+4.2.1,Spread coefficients,spread_sec_agb_Popu_bal,Secondary AGB: Balsam poplar (Popu_bal),"",numeric,46.6738913370926,"shared with Betu_pap, Popu_tre"
+4.2.1,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,46.6738913370926,"shared with Betu_pap, Popu_bal"
+4.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,47.2411195404171,""
+4.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.49457800727964,""
+4.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-20.670417074243,""
+4.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-20.670417074243,""
+4.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-20.670417074243,""
+4.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-20.670417074243,""
+4.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-20.670417074243,""
+4.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255331245614004,""
+4.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+4.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+4.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,8.44773245510254,""
+4.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,19.0656784239524,""
+4.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-17.5139119731887,""
+4.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,41.7573714757992,""
+4.2.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,20.3826124391291,""
+4.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,51.4412628394966,""
+4.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.9726988713344,""
+4.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-14.0042829490797,""
+4.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-14.0042829490797,""
+4.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-14.0042829490797,""
+4.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-14.0042829490797,""
+4.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-14.0042829490797,""
+4.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.257027948765947,""
+4.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+4.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+4.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.35820724407,""
+4.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,6.21436820696834,""
+4.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.19499854540612,""
+4.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,7.25467353675937,""
+4.3,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,11.3936617890407,""
+4.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,54.8206722038328,""
+4.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.50378133234826,""
+4.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,13.1835300714001,""
+4.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,13.1835300714001,""
+4.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,13.1835300714001,""
+4.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,13.1835300714001,""
+4.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,13.1835300714001,""
+5.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.273142838564142,""
+5.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.5115420630249,""
+5.1.1,Spread coefficients,spread_CMD,CMD,"",numeric,9.63097102890952,""
+5.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-4.54464298875371,""
+5.1.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,11.3491335320119,""
+5.1.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,45.0868889911552,""
+5.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.04370754975855,""
+5.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,2.66016182712399,""
+5.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,2.66016182712399,""
+5.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,2.66016182712399,""
+5.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,2.66016182712399,""
+5.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,2.66016182712399,""
+5.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.260566157358358,""
+5.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.7705873354243,""
+5.1.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,5.99808314669587,""
+5.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-16.8350670536074,""
+5.1.2,Spread coefficients,spread_dom_agb_Pinu_ban,Dominant AGB: Jack pine (Pinu_ban),"",numeric,4.56626185173755,""
+5.1.2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,6.37577534618739,""
+5.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,31.4763200085766,""
+5.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.84877809941275,""
+5.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-13.5533523368738,""
+5.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-13.5533523368738,""
+5.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-13.5533523368738,""
+5.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-13.5533523368738,""
+5.1.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263145690080097,""
+5.1.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.1.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.1.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.74534705770061,""
+5.1.3,Spread coefficients,spread_CMD,CMD,"",numeric,12.6488323853514,""
+5.1.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-13.5927724556256,""
+5.1.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,13.1110269267117,""
+5.1.3,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,82.5290975243894,""
+5.1.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-14.2790643655562,""
+5.1.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.14889155410619,""
+5.1.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-20.4395020388521,""
+5.1.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-20.4395020388521,""
+5.1.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-20.4395020388521,""
+5.1.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-20.4395020388521,""
+5.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.263803653799628,""
+5.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,5.184389202325,""
+5.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,13.7903200696523,""
+5.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-5.80254759240629,""
+5.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,23.2134620609972,""
+5.2.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,48.106965854154,""
+5.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.7052534428565,""
+5.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-18.3054236880582,""
+5.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-18.3054236880582,""
+5.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-18.3054236880582,""
+5.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-18.3054236880582,""
+5.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-18.3054236880582,""
+5.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.258225566222409,""
+5.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,17.1248287639699,""
+5.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,14.9913694736554,""
+5.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.4959655863365,""
+5.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,43.2709786075737,""
+5.2.2,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,32.0897782412921,"shared with Lari_lar, Pice_gla"
+5.2.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,32.0897782412921,"shared with Abie_bal, Pice_gla"
+5.2.2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,32.0897782412921,"shared with Abie_bal, Lari_lar"
+5.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.72541621319553,""
+5.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,28.0182672801906,""
+5.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,28.0182672801906,""
+5.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,28.0182672801906,""
+5.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,28.0182672801906,""
+5.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,28.0182672801906,""
+5.3.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.260935118895351,""
+5.3.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.3.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.3.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,6.58189814790689,""
+5.3.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,1.52076184239933,""
+5.3.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-16.7613587891126,""
+5.3.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,3.18116329609912,""
+5.3.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,4.40721229113146,""
+5.3.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,3.66798009100721,""
+5.3.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,11.7523382848266,""
+5.3.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,11.7523382848266,""
+5.3.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,11.7523382848266,""
+5.3.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,11.7523382848266,""
+5.3.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,11.7523382848266,""
+5.3.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.250454890910259,""
+5.3.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+5.3.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+5.3.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,12.3102865870279,""
+5.3.2,Spread coefficients,spread_CMD,CMD,"",numeric,6.44458004751226,""
+5.3.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-31.4694982475639,""
+5.3.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,7.40646839846123,""
+5.3.2,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,23.0782798733461,"shared with Lari_lar, Pice_gla"
+5.3.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,23.0782798733461,"shared with Abie_bal, Pice_gla"
+5.3.2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,23.0782798733461,"shared with Abie_bal, Lari_lar"
+5.3.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-25.2421929995411,""
+5.3.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.3261144411233,""
+5.3.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,11.3259624006712,""
+5.3.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,11.3259624006712,""
+5.3.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,11.3259624006712,""
+5.3.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,11.3259624006712,""
+6.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.257987867659617,""
+6.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.8829601586198,""
+6.1.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,8.63474461490924,""
+6.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-3.10376047267091,""
+6.1.1,Spread coefficients,spread_dom_agb_Pinu_ban,Dominant AGB: Jack pine (Pinu_ban),"",numeric,85.4387851148644,""
+6.1.1,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,9.26184759294421,""
+6.1.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,42.2667601615664,""
+6.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.71955283633904,""
+6.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-10.4613634436778,""
+6.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-10.4613634436778,""
+6.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-10.4613634436778,""
+6.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-10.4613634436778,""
+6.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-10.4613634436778,""
+6.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255071817571629,""
+6.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,14.8943371873378,""
+6.1.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,12.7733211360344,""
+6.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.391836231174421,""
+6.1.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,56.9397481302782,""
+6.1.2,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,59.2179166894548,""
+6.1.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,5.59027883653099,""
+6.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.70252624143072,""
+6.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,1.31256413564444,""
+6.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,1.31256413564444,""
+6.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,1.31256413564444,""
+6.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,1.31256413564444,""
+6.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,1.31256413564444,""
+6.1.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.249134991739011,""
+6.1.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.1.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.1.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.7474777910519,""
+6.1.3,Spread coefficients,spread_PPTsm,PPTsm,"",numeric,-5.29899850952565,""
+6.1.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.39460447073238,""
+6.1.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,13.4270017600877,""
+6.1.3,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,12.6714630084898,shared with Lari_lar
+6.1.3,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,12.6714630084898,shared with Abie_bal
+6.1.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,26.6388671376664,""
+6.1.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.48952156064596,""
+6.1.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-11.4452480893236,""
+6.1.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-11.4452480893236,""
+6.1.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-11.4452480893236,""
+6.1.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-11.4452480893236,""
+6.1.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-11.4452480893236,""
+6.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.254166916783507,""
+6.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,10.6740492012649,""
+6.2.1,Spread coefficients,spread_CMD,CMD,"",numeric,4.74592161026635,""
+6.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.406927826900033,""
+6.2.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,15.4377266513624,""
+6.2.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,62.6647303239388,""
+6.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,2.97711637015697,""
+6.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.09220230490999,""
+6.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-5.19094266857541,""
+6.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-5.19094266857541,""
+6.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-5.19094266857541,""
+6.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-5.19094266857541,""
+6.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-5.19094266857541,""
+6.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.243744177625804,""
+6.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.4140172017451,""
+6.2.2,Spread coefficients,spread_CMD,CMD,"",numeric,0.400518339059204,""
+6.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-0.830863633864752,""
+6.2.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,3.28024899229046,""
+6.2.2,Spread coefficients,spread_sec_agb_Betu_pap,Secondary AGB: Paper birch (Betu_pap),"",numeric,21.3182307085511,shared with Popu_tre
+6.2.2,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,21.3182307085511,shared with Betu_pap
+6.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.51950888598117,""
+6.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,14.799629245325,""
+6.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,14.799629245325,""
+6.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,14.799629245325,""
+6.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,14.799629245325,""
+6.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,14.799629245325,""
+6.2.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.25393410257443,""
+6.2.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.2.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.2.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.7818468405697,""
+6.2.3,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,0.337869627883094,""
+6.2.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.88945182366016,""
+6.2.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,14.3706708427227,""
+6.2.3,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,84.8718723003027,""
+6.2.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,4.46225638253828,""
+6.2.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.39378773862874,""
+6.2.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,9.87308533988968,""
+6.2.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,9.87308533988968,""
+6.2.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,9.87308533988968,""
+6.2.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,9.87308533988968,""
+6.2.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,9.87308533988968,""
+6.3.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.24915357548525,""
+6.3.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.3.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.3.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.4100747617923,""
+6.3.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,8.32880954190859,""
+6.3.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-10.4391589804361,""
+6.3.1,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,1.23019947957719,""
+6.3.1,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,4.22479718752553,"shared with Lari_lar, Pice_gla"
+6.3.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,4.22479718752553,"shared with Abie_bal, Pice_gla"
+6.3.1,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,4.22479718752553,"shared with Abie_bal, Lari_lar"
+6.3.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.87116306382972,""
+6.3.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,5.72295253577397,""
+6.3.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,5.72295253577397,""
+6.3.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,5.72295253577397,""
+6.3.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,5.72295253577397,""
+6.3.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,5.72295253577397,""
+6.3.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.251656098717847,""
+6.3.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.3.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.3.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,11.9927992839795,""
+6.3.2,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,3.35679255820512,""
+6.3.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-13.8506302030839,""
+6.3.2,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,4.72675895886625,""
+6.3.2,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,39.3061509232837,"shared with Lari_lar, Pice_gla"
+6.3.2,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,39.3061509232837,"shared with Abie_bal, Pice_gla"
+6.3.2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,39.3061509232837,"shared with Abie_bal, Lari_lar"
+6.3.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,9.48785022088783,""
+6.3.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,17.25301023122,""
+6.3.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,17.25301023122,""
+6.3.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,17.25301023122,""
+6.3.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,17.25301023122,""
+6.3.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,17.25301023122,""
+6.4,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.253369233250314,""
+6.4,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.4,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.4,Spread coefficients,spread_Intercept,Intercept,"",numeric,-2.16966923568961,""
+6.4,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,48.0400597641552,""
+6.4,Spread coefficients,spread_youngAge,Young stands,"",numeric,-21.8860751357853,""
+6.4,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,9.45671986556231,""
+6.4,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,23.2128495361668,""
+6.4,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,1.40804822167735,""
+6.4,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,3.18613161931871,""
+6.4,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,3.18613161931871,""
+6.4,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,3.18613161931871,""
+6.4,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-8.20428076427864,""
+6.4,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-8.20428076427864,""
+6.5,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.276808667694581,""
+6.5,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.5,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.5,Spread coefficients,spread_Intercept,Intercept,"",numeric,0.0355624483204395,""
+6.5,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,46.3379128492409,""
+6.5,Spread coefficients,spread_youngAge,Young stands,"",numeric,-21.0244168255826,""
+6.5,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,85.4346890273217,""
+6.5,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,22.2719003130913,""
+6.5,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,2.82623383792356,""
+6.5,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,40.336288207508,""
+6.5,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,40.336288207508,""
+6.5,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,40.336288207508,""
+6.5,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,40.336288207508,""
+6.5,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,40.336288207508,""
+6.6.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.242509949291679,""
+6.6.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+6.6.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+6.6.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,4.70818614491491,""
+6.6.1,Spread coefficients,spread_Tmaxsm,Tmaxsm,"",numeric,24.1824952823331,""
+6.6.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.7621123290232,""
+6.6.1,Spread coefficients,spread_dom_agb_Betu_all,Dominant AGB: Yellow birch (Betu_all),"",numeric,6.75209608691168,"shared with Betu_pap, Popu_tre"
+6.6.1,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,6.75209608691168,"shared with Betu_all, Popu_tre"
+6.6.1,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,6.75209608691168,"shared with Betu_all, Betu_pap"
+6.6.1,Spread coefficients,spread_sec_agb_Acer_rub,Secondary AGB: Red maple (Acer_rub),"",numeric,0.405376551556656,"shared with Acer_sah, Quer_rub"
+6.6.1,Spread coefficients,spread_sec_agb_Acer_sah,Secondary AGB: Sugar maple (Acer_sah),"",numeric,0.405376551556656,"shared with Acer_rub, Quer_rub"
+6.6.1,Spread coefficients,spread_sec_agb_Quer_rub,Secondary AGB: Northern red oak (Quer_rub),"",numeric,0.405376551556656,"shared with Acer_rub, Acer_sah"
+6.6.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.91650757917383,""
+6.6.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-34.6523647645215,""
+6.6.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-34.6523647645215,""
+6.6.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-34.6523647645215,""
+6.6.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-34.6523647645215,""
+6.6.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-34.6523647645215,""
+7.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.186648903600967,""
+7.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+7.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+7.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,41.4404703573627,""
+7.1,Spread coefficients,spread_CMDsm,CMDsm,"",numeric,30.6067621176374,""
+7.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-17.2931289658641,""
+7.1,Spread coefficients,spread_dom_agb_Abie_bal,Dominant AGB: Balsam fir (Abie_bal),"",numeric,41.1288548781996,"shared with Lari_lar, Pice_gla"
+7.1,Spread coefficients,spread_dom_agb_Lari_lar,Dominant AGB: Tamarack (Lari_lar),"",numeric,41.1288548781996,"shared with Abie_bal, Pice_gla"
+7.1,Spread coefficients,spread_dom_agb_Pice_gla,Dominant AGB: White spruce (Pice_gla),"",numeric,41.1288548781996,"shared with Abie_bal, Lari_lar"
+7.1,Spread coefficients,spread_sec_agb_Acer_rub,Secondary AGB: Red maple (Acer_rub),"",numeric,19.7972047469724,"shared with Acer_sah, Pice_rub"
+7.1,Spread coefficients,spread_sec_agb_Acer_sah,Secondary AGB: Sugar maple (Acer_sah),"",numeric,19.7972047469724,"shared with Acer_rub, Pice_rub"
+7.1,Spread coefficients,spread_sec_agb_Pice_rub,Secondary AGB: Red spruce (Pice_rub),"",numeric,19.7972047469724,"shared with Acer_rub, Acer_sah"
+7.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,4.01471815104237,""
+7.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-37.4613784226902,""
+7.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-37.4613784226902,""
+7.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-37.4613784226902,""
+7.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-37.4613784226902,""
+7.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-37.4613784226902,""
+9.1.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.241664264330237,""
+9.1.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.1.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.1.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,15.8941166654701,""
+9.1.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,4.64567597343422,""
+9.1.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.76740158008843,""
+9.1.1,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,2.56656535521166,"shared with Popu_bal, Popu_tre"
+9.1.1,Spread coefficients,spread_dom_agb_Popu_bal,Dominant AGB: Balsam poplar (Popu_bal),"",numeric,2.56656535521166,"shared with Betu_pap, Popu_tre"
+9.1.1,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,2.56656535521166,"shared with Betu_pap, Popu_bal"
+9.1.1,Spread coefficients,spread_sec_agb_Pinu_ban,Secondary AGB: Jack pine (Pinu_ban),"",numeric,52.8377116119791,shared with Pinu_con
+9.1.1,Spread coefficients,spread_sec_agb_Pinu_con,Secondary AGB: Lodgepole pine (Pinu_con),"",numeric,52.8377116119791,shared with Pinu_ban
+9.1.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,37.2362835344452,""
+9.1.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,8.69205537051419,""
+9.1.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-27.3542650243452,""
+9.1.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-27.3542650243452,""
+9.1.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-27.3542650243452,""
+9.1.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-27.3542650243452,""
+9.1.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-27.3542650243452,""
+9.1.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259022196835991,""
+9.1.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.1.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.1.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,19.9487930271832,""
+9.1.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,8.50483339857305,""
+9.1.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-25.6381652927118,""
+9.1.2,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,92.9727606963834,"shared with Popu_bal, Popu_tre"
+9.1.2,Spread coefficients,spread_dom_agb_Popu_bal,Dominant AGB: Balsam poplar (Popu_bal),"",numeric,92.9727606963834,"shared with Betu_pap, Popu_tre"
+9.1.2,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,92.9727606963834,"shared with Betu_pap, Popu_bal"
+9.1.2,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,3.46005909739501,"shared with Abie_las, Pice_eng, Pice_gla"
+9.1.2,Spread coefficients,spread_sec_agb_Abie_las,Secondary AGB: Subalpine fir (Abie_las),"",numeric,3.46005909739501,"shared with Abie_bal, Pice_eng, Pice_gla"
+9.1.2,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,3.46005909739501,"shared with Abie_bal, Abie_las, Pice_gla"
+9.1.2,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,3.46005909739501,"shared with Abie_bal, Abie_las, Pice_eng"
+9.1.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.526246541973646,""
+9.1.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,-38.7356391704071,""
+9.1.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,-38.7356391704071,""
+9.1.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,-38.7356391704071,""
+9.1.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,-38.7356391704071,""
+9.1.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,-38.7356391704071,""
+9.2.1,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.262461208298481,""
+9.2.1,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.2.1,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.2.1,Spread coefficients,spread_Intercept,Intercept,"",numeric,10.1650915306686,""
+9.2.1,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,16.2847750508644,""
+9.2.1,Spread coefficients,spread_youngAge,Young stands,"",numeric,-28.1624245443419,""
+9.2.1,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,70.3981657347446,"shared with Popu_bal, Popu_tre"
+9.2.1,Spread coefficients,spread_dom_agb_Popu_bal,Dominant AGB: Balsam poplar (Popu_bal),"",numeric,70.3981657347446,"shared with Betu_pap, Popu_tre"
+9.2.1,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,70.3981657347446,"shared with Betu_pap, Popu_bal"
+9.2.1,Spread coefficients,spread_sec_agb_Abie_bal,Secondary AGB: Balsam fir (Abie_bal),"",numeric,54.7481031329659,"shared with Abie_las, Lari_lar, Pice_eng, Pice_gla"
+9.2.1,Spread coefficients,spread_sec_agb_Abie_las,Secondary AGB: Subalpine fir (Abie_las),"",numeric,54.7481031329659,"shared with Abie_bal, Lari_lar, Pice_eng, Pice_gla"
+9.2.1,Spread coefficients,spread_sec_agb_Lari_lar,Secondary AGB: Tamarack (Lari_lar),"",numeric,54.7481031329659,"shared with Abie_bal, Abie_las, Pice_eng, Pice_gla"
+9.2.1,Spread coefficients,spread_sec_agb_Pice_eng,Secondary AGB: Engelmann's spruce (Pice_eng),"",numeric,54.7481031329659,"shared with Abie_bal, Abie_las, Lari_lar, Pice_gla"
+9.2.1,Spread coefficients,spread_sec_agb_Pice_gla,Secondary AGB: White spruce (Pice_gla),"",numeric,54.7481031329659,"shared with Abie_bal, Abie_las, Lari_lar, Pice_eng"
+9.2.1,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,91.7662033572556,""
+9.2.1,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,0.882405164641572,""
+9.2.1,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,23.2052679730959,""
+9.2.1,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,23.2052679730959,""
+9.2.1,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,23.2052679730959,""
+9.2.1,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,23.2052679730959,""
+9.2.1,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,23.2052679730959,""
+9.2.2,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.259405245844468,""
+9.2.2,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.2.2,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.2.2,Spread coefficients,spread_Intercept,Intercept,"",numeric,7.2535991728734,""
+9.2.2,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,4.66321577679413,""
+9.2.2,Spread coefficients,spread_youngAge,Young stands,"",numeric,-1.44968536116866,""
+9.2.2,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,2.07096196203372,"shared with Popu_bal, Popu_tre"
+9.2.2,Spread coefficients,spread_dom_agb_Popu_bal,Dominant AGB: Balsam poplar (Popu_bal),"",numeric,2.07096196203372,"shared with Betu_pap, Popu_tre"
+9.2.2,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,2.07096196203372,"shared with Betu_pap, Popu_bal"
+9.2.2,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,3.14476318246375,""
+9.2.2,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,5.23216896735326,""
+9.2.2,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,5.9088815004085,""
+9.2.2,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,17.4595146813417,""
+9.2.2,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,17.4595146813417,""
+9.2.2,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,17.4595146813417,""
+9.2.2,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,17.4595146813417,""
+9.2.2,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,17.4595146813417,""
+9.2.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.256273630473727,""
+9.2.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.2.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.2.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,9.55349779534343,""
+9.2.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,11.6269405023139,""
+9.2.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-2.19586443605423,""
+9.2.3,Spread coefficients,spread_dom_agb_Betu_pap,Dominant AGB: Paper birch (Betu_pap),"",numeric,1.40613889588574,"shared with Popu_bal, Popu_tre"
+9.2.3,Spread coefficients,spread_dom_agb_Popu_bal,Dominant AGB: Balsam poplar (Popu_bal),"",numeric,1.40613889588574,"shared with Betu_pap, Popu_tre"
+9.2.3,Spread coefficients,spread_dom_agb_Popu_tre,Dominant AGB: Trembling aspen (Popu_tre),"",numeric,1.40613889588574,"shared with Betu_pap, Popu_bal"
+9.2.3,Spread coefficients,spread_sec_agb_Pice_mar,Secondary AGB: Black spruce (Pice_mar),"",numeric,69.0322270427128,""
+9.2.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,50.3917075376504,""
+9.2.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.59396793437383,""
+9.2.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,30.5990642061864,""
+9.2.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,30.5990642061864,""
+9.2.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,30.5990642061864,""
+9.2.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,30.5990642061864,""
+9.2.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,30.5990642061864,""
+9.3,Spread coefficients,spread_maxAsymptote,Maximum spread probability,"",numeric,0.255180137948596,""
+9.3,Spread coefficients,spread_hillSlope1,Hill slope,"",numeric,1,""
+9.3,Spread coefficients,spread_inflectionPoint1,Inflection point,"",numeric,1,""
+9.3,Spread coefficients,spread_Intercept,Intercept,"",numeric,8.18601359900733,""
+9.3,Spread coefficients,spread_cumMDC,cumMDC,"",numeric,1.45859748743049,""
+9.3,Spread coefficients,spread_youngAge,Young stands,"",numeric,-19.4509736058479,""
+9.3,Spread coefficients,spread_dom_agb_Pice_mar,Dominant AGB: Black spruce (Pice_mar),"",numeric,58.9619549072013,""
+9.3,Spread coefficients,spread_sec_agb_Popu_tre,Secondary AGB: Trembling aspen (Popu_tre),"",numeric,7.98711508268936,""
+9.3,Spread coefficients,spread_treedWetland_agb,Treed wetland AGB,"",numeric,60.319539716014,""
+9.3,Spread coefficients,spread_yearSpreadSD,Year SD,"",numeric,7.31969626044476,""
+9.3,Spread coefficients,spread_nfLCC_50,Non-forest LCC 50,"",numeric,32.3537133071933,""
+9.3,Spread coefficients,spread_nfLCC_100,Non-forest LCC 100,"",numeric,32.3537133071933,""
+9.3,Spread coefficients,spread_nfLCC_40,Non-forest LCC 40,"",numeric,32.3537133071933,""
+9.3,Spread coefficients,spread_nfLCC_60,Non-forest LCC 60,"",numeric,32.3537133071933,""
+9.3,Spread coefficients,spread_nfLCC_80,Non-forest LCC 80,"",numeric,32.3537133071933,""

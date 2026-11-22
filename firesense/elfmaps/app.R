@@ -44,6 +44,8 @@ readData <- function() {
       group = "character", feature = "character", label = "character", units = "character",
       type = "character", value = "numeric"), na.strings = "NA"))
   feat$units[is.na(feat$units)] <- ""
+  ## per ELF: for a species from a grouped fuel term, the species it shares that term with in THIS ELF
+  feat$note <- if (is.null(feat$note)) "" else ifelse(is.na(feat$note), "", as.character(feat$note))
   geo <- one("ELFs.geojson", function(f) sf::st_read(f, quiet = TRUE))
   geo$ELF <- as.character(geo$ELF)
   list(feat = feat, geo = geo)
@@ -176,6 +178,8 @@ server <- function(input, output, session) {
     req(nrow(f) > 0)
     g <- dat$geo
     g$value <- f$value[match(g$ELF, f$ELF)]
+    g$note <- f$note[match(g$ELF, f$ELF)]
+    g$note[is.na(g$note)] <- ""
     list(g = g, type = f$type[1], units = f$units[1], label = f$label[1])
   })
 
@@ -231,8 +235,9 @@ server <- function(input, output, session) {
     }
     shown <- fmtValue(v, cur$type)
     unitTxt <- ifelse(nzchar(cur$units) & !is.na(v), paste0(" ", cur$units), "")
-    html <- sprintf("<b>ELF %s</b><br>%s<br>%s: %s%s", g$ELF, htmltools::htmlEscape(g$name),
-                    htmltools::htmlEscape(cur$label), shown, unitTxt)
+    html <- sprintf("<b>ELF %s</b><br>%s<br>%s: %s%s%s", g$ELF, htmltools::htmlEscape(g$name),
+                    htmltools::htmlEscape(cur$label), shown, unitTxt,
+                    ifelse(nzchar(g$note), paste0("<br><i>", htmltools::htmlEscape(g$note), " in this ELF</i>"), ""))
     labFmt <- if (isDate) function(type, cuts, p) format(as.Date(cuts, origin = "1970-01-01"), "%Y-%m-%d")
               else labelFormat()
     title <- if (nzchar(cur$units)) paste0(cur$label, " (", cur$units, ")") else cur$label
@@ -256,6 +261,7 @@ server <- function(input, output, session) {
            else g$value
     d <- data.frame(ELF = g$ELF, Name = g$name, Value = val, check.names = FALSE)
     names(d)[3] <- if (nzchar(cur$units)) paste0("Value (", cur$units, ")") else "Value"
+    if (any(nzchar(g$note))) d[["Fuel term shared with"]] <- sub("^shared with ", "", g$note)
     datatable(d, rownames = FALSE, filter = "top",
               options = list(pageLength = 25, scrollX = TRUE, order = list(list(0, "asc"))))
   })
