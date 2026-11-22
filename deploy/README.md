@@ -49,6 +49,7 @@ Mount the site at `/apps-site`, not under `/srv`: `/srv` is the wbi site's read-
     curl -sI https://apps.predictiveecology.org/ | head -1
     curl -sI https://apps.predictiveecology.org/firesense/elfmaps/ | head -1
     curl -sI https://apps.predictiveecology.org/firesense/fitledger/ | head -1   # 301 to /firesense/elfmaps/
+    curl -s -o /dev/null -w "%{http_code}\n" -H "Range: bytes=0-99" https://apps.predictiveecology.org/firesense/elfmaps/data/NRVburnProbability.tif   # 206
     curl -sI https://wbi.predictiveecology.org/apps/wbi/ | head -1     # existing site still up
 
 ## Update later
