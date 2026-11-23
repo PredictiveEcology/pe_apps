@@ -131,6 +131,21 @@ RASTER_JS <- "
 })();
 "
 
+## the map-height slider: sets the map's height to a share of the window, redraws Leaflet, keeps the choice per browser
+MAPHEIGHT_JS <- "
+window.elfMapHeight = function (v) {
+  var el = document.getElementById('map'); if (!el) return;
+  el.style.height = v + 'vh';
+  var s = document.getElementById('mapHv'); if (s) s.textContent = v + '% of window';
+  var w = window.HTMLWidgets && HTMLWidgets.find('#map'); if (w && w.getMap) w.getMap().invalidateSize();
+  try { localStorage.setItem('elfMapH', v); } catch (e) {}
+};
+$(document).on('shiny:connected', function () {
+  var v = null; try { v = localStorage.getItem('elfMapH'); } catch (e) {}
+  if (v) { var r = document.getElementById('mapH'); if (r) r.value = v; setTimeout(function () { elfMapHeight(v); }, 300); }
+});
+"
+
 ui <- page_fluid(
   theme = bs_theme(version = 5, preset = "shiny"),
   title = "FireSense ELF maps",
@@ -147,7 +162,14 @@ ui <- page_fluid(
     selectInput("feature", "Feature", character(0), width = "100%")
   ),
   uiOutput("msg"),
-  card(leafletOutput("map", height = 560)),
+  ## map height: a slider (share of the window height, remembered in this browser) and the card's full-screen button
+  div(class = "d-flex align-items-center gap-2 small mb-1",
+      tags$label("Map height", `for` = "mapH", class = "mb-0"),
+      tags$input(type = "range", id = "mapH", min = 40, max = 100, step = 5, value = 75, style = "width: 12em;",
+                 oninput = "elfMapHeight(this.value)"),
+      span(id = "mapHv", "75% of window")),
+  card(full_screen = TRUE, leafletOutput("map", height = "75vh")),
+  tags$script(HTML(MAPHEIGHT_JS)),
   uiOutput("tblCard"),
   tags$footer(class = "text-muted small my-3", textOutput("loaded"))
 )
