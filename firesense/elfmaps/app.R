@@ -9,7 +9,7 @@ library(leaflet)
 library(sf)
 
 DATA_URL <- sub("/+$", "", Sys.getenv("DATA_URL", "./data"))
-GROUPS <- c("Observed", "Fit", "Spread coefficients", "NRV burn probability")
+GROUPS <- c("Observed", "Fit", "Spread coefficients", "Spread fuel effect", "NRV burn probability")
 RASTER_GROUP <- "NRV burn probability"
 # Cloud-optimised GeoTIFFs, read in the browser by range requests from <app>/data/
 # (the web server proxies that path to the bucket). Values are the mean annual share of
@@ -63,8 +63,8 @@ FIXED_ORDER <- c("naturalFiresPerYear", "haBurnedPerYear", "naturalFiresPer100km
                  "percentBurnedPerYear", "spreadFitDate", "ignitionFitDate")
 featureOrder <- function(id, label) {
   rank <- ifelse(id %in% FIXED_ORDER, match(id, FIXED_ORDER),
-          ifelse(grepl("^spread_dom_agb", id), 11,
-          ifelse(grepl("^spread_sec_agb", id), 12,
+          ifelse(grepl("^(spread|spreadEffect)_dom_agb", id), 11,
+          ifelse(grepl("^(spread|spreadEffect)_sec_agb", id), 12,
           ifelse(grepl("^spread_nfLCC", id), 13,
           ifelse(grepl("^spread_(youngAge|treedWetland)", id), 14,
           ifelse(grepl("^spread_(Intercept|maxAsymptote|hillSlope|inflectionPoint|yearSpreadSD)", id), 16,
@@ -155,7 +155,9 @@ ui <- page_fluid(
     "(ecologically-based low fractal-dimension polygon). Pick a group and a feature to colour the map."),
   p(class = "text-muted small",
     "Spread coefficients are means over each fit's parameter sets, on the fitted covariate scale",
-    "(fuel = biomass/1e4, centred). Compare them across ELFs only within one coefficient."),
+    "(fuel = biomass/1e4, centred). Compare them across ELFs only within one coefficient.",
+    "Spread fuel effect: the change in spread probability when a species' fuel term goes from 0 to its",
+    "median non-zero biomass in the fit data, other covariates at their centres."),
   layout_columns(
     col_widths = c(4, 8),
     selectInput("group", "Show", GROUPS),
